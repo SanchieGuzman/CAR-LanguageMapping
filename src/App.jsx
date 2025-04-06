@@ -1,6 +1,7 @@
 import { useState } from "react";
 import NavBar from "./components/Navbar.jsx";
 import ChosenPlaceHandler from "./components/ChosenPlaceHandler.jsx";
+import RightCont from "./components/RightCont.jsx";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <NavBar></NavBar>
       <ChosenPlaceHandler></ChosenPlaceHandler>
+      <RightCont></RightCont>
     </>
   );
 }
