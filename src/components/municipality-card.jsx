@@ -1,6 +1,10 @@
 import { Card, CardDescription, CardTitle, CardHeader, CardContent } from "./ui/card";
+import { useMunicipalityStore } from '../store/municipality-store'
+import { Badge } from '../components/ui/badge'
 
-export default function MunicipalityCard({className, placeDetails}) {
+export default function MunicipalityCard({className}) {
+  const municipalityData = useMunicipalityStore((state) => state.municipalityData);
+
   return (
     <Card className={`${className} relative pt-0`}>
       <div className="w-full overflow-hidden shadow-lg rounded-t-md">
@@ -16,52 +20,55 @@ export default function MunicipalityCard({className, placeDetails}) {
         <CardDescription>Summer capital of the Philippines, known for their emerushits</CardDescription>
       </CardHeader>
 
-      <CardContent>
-        {placeDetails ? (
-          <div>
-            <img
-              src={placeDetails.placeimage}
-              alt=""
-              className="w-full h-[30vh] object-cover object-center"
-            />
-            <p className="px-4 pt-4 text-justify">
-              {placeDetails.placedescription}
-            </p>
-            <p className="px-4 pt-6 text-left">
-              Five Leading Languages/Dialects Generally Spoken at Home in "{placeDetails.placename}"
-            </p>
-            <div className="grid grid-cols-2 pt-4">
-              <div>
-                <div><p>ilocano</p></div>
-                <div><p>ilocano</p></div>
-                <div><p>ilocano</p></div>
-              </div>
-              <div>
-                <div><p>30%</p></div>
-                <div><p>30%</p></div>
-                <div><p>30%</p></div>
-              </div>
-            </div>
-            <p className="text-left px-4 pt-6">
-              Other Languages/Dialects Spoken 
-            </p>
-
-            {placeDetails.otherlanguage && (
-              <div className="grid grid-cols-4 flex px-4">
-                {placeDetails.otherlanguage.map((otherlanguage,index) => (
-                  <div key={index} className="mt-4 border-1 w-[6rem] h-[2rem] text-[1rem] justify-center flex">{otherlanguage}</div>
-                ))}
-              </div>
-            )}
-
-          </div>
-        ) : (
-          null
-        )}
+      <CardContent className="border-red-900 border-4">
+        {municipalityData}
       </CardContent>
     </Card>
   );
 }
+
+
+// {placeDetails ? (
+//   <div>
+//     <img
+//       src={placeDetails.placeimage}
+//       alt=""
+//       className="w-full h-[30vh] object-cover object-center"
+//     />
+//     <p className="px-4 pt-4 text-justify">
+//       {placeDetails.placedescription}
+//     </p>
+//     <p className="px-4 pt-6 text-left">
+//       Five Leading Languages/Dialects Generally Spoken at Home in "{placeDetails.placename}"
+//     </p>
+//     <div className="grid grid-cols-2 pt-4">
+//       <div>
+//         <div><p>ilocano</p></div>
+//         <div><p>ilocano</p></div>
+//         <div><p>ilocano</p></div>
+//       </div>
+//       <div>
+//         <div><p>30%</p></div>
+//         <div><p>30%</p></div>
+//         <div><p>30%</p></div>
+//       </div>
+//     </div>
+//     <p className="text-left px-4 pt-6">
+//       Other Languages/Dialects Spoken 
+//     </p>
+
+//     {placeDetails.otherlanguage && (
+//       <div className="grid grid-cols-4 flex px-4">
+//         {placeDetails.otherlanguage.map((otherlanguage,index) => (
+//           <div key={index} className="mt-4 border-1 w-[6rem] h-[2rem] text-[1rem] justify-center flex">{otherlanguage}</div>
+//         ))}
+//       </div>
+//     )}
+
+//   </div>
+// ) : (
+//   null
+// )}
 
 
 // const placeData = {
