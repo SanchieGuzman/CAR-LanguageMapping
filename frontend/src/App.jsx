@@ -8,9 +8,11 @@ function App() {
       <Header></Header>
 
       {/* main content */}
-      <div className="container mx-auto grid grid-cols-5 gap-5 p-5">
-        <MapCard className={'col-span-5 md:col-span-3 h-fit'}></MapCard>
-        <MunicipalityCard className={'col-span-5 md:col-span-2 h-fit'}></MunicipalityCard>
+      <div className="h-[calc(100vh-4.5rem)] box-border p-5">
+        <div className="grid grid-cols-5 gap-5 h-full">
+          <MapCard className="col-span-5 md:col-span-3 h-full" />
+          <MunicipalityCard className="col-span-5 md:col-span-2 h-fit" />
+        </div>
       </div>
     </>
   );
