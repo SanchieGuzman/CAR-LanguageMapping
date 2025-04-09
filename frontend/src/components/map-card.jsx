@@ -55,11 +55,25 @@ export default function MapCard({ className }) {
           <DropdownMenuContent className="">
             <DropdownMenuGroup>
               <DropdownMenuItem
-                onClick={() => setMapLevel("Municipality Level")}
+                onClick={() => {
+                  document
+                    .querySelectorAll("svg path.selected")
+                    .forEach((p) => p.classList.remove("selected"));
+
+                  setMapLevel("Municipality Level");
+                }}
               >
                 Municipality Level
               </DropdownMenuItem>
-              <DropdownMenuItem onClick={() => setMapLevel("Provincial Level")}>
+              <DropdownMenuItem
+                onClick={() => {
+                  document
+                    .querySelectorAll("svg path.selected")
+                    .forEach((p) => p.classList.remove("selected"));
+
+                  setMapLevel("Provincial Level");
+                }}
+              >
                 Provincial Level
               </DropdownMenuItem>
             </DropdownMenuGroup>
