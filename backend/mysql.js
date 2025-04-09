@@ -61,8 +61,6 @@ class Database {
     async getMunicipalityLanguages(municipality_id) {
         const query_main = `
             SELECT 
-                m.municipality_id,
-                l.language_id,
                 l.language_name,
                 SUM(ml.count) AS count
             FROM Municipalities m 

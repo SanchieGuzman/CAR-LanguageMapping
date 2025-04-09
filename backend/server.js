@@ -1,6 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import Database from './mysql.js';
+import { format } from './format.js';
 
 dotenv.config();
 const app = express();
@@ -8,9 +9,11 @@ app.use(express.json());
 
 // Simple GET endpoint at /municipality
 app.get('/municipality', async (req, res) => {
+    const municipality_id = req.body.municipality_id;
     const db = Database.getInstance();
-    const result = await db.getMunicipalityLanguages(1);
-    res.json(result);
+    const result = await db.getMunicipalityLanguages(municipality_id);
+    const finalJson = format(result);
+    res.json(finalJson);
 });
 // //btw para mag process ng image kunin ko lang sa past proj
 
@@ -30,6 +33,7 @@ app.get('/municipality', async (req, res) => {
 //       itemImage.src = imageUrl;
 //       itemImage.alt = product.product_name;
 //       itemCardImageContainer.appendChild(itemImage);
+
 const PORT = process.env.SERVER_PORT || 3001;
 
 app.listen(PORT, () => {
