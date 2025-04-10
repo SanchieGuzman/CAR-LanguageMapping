@@ -9,6 +9,15 @@ export default function MunicipalityCard({ className }) {
     (state) => state.municipalityData
   );
 
+  const colors = [
+    "#FF7373",
+    "#CDFFC7",
+    "#EEFFC7",
+    "#B8DFFF",
+    "#CEB4FB",
+    "FBB4EC",
+  ];
+
   const placeDetails = municipalityData;
   console.log(placeDetails);
 
@@ -35,10 +44,6 @@ export default function MunicipalityCard({ className }) {
   };
 
   if (!municipalityData) {
-    return <div>Please select a municipality</div>;
-  }
-
-  if (!municipalityData.municipality_image) {
     return (
       <Card
         className={`${className} relative pt-0 flex items-center justify-center h-[30vh]`}
@@ -74,7 +79,12 @@ export default function MunicipalityCard({ className }) {
               {placeDetails.languages.map((placeData, index) => (
                 <TableRow key={index}>
                   <TableCell>
-                    {/* <div className="w-[1rem] aspect-square" style={{background: placeDetails.colors[index]}}> </div> */}
+                    <div
+                      className="w-[1rem] aspect-square"
+                      style={{ background: colors[index] }}
+                    >
+                      {" "}
+                    </div>
                   </TableCell>
                   <TableCell>{placeData.language_name}</TableCell>
                   <TableCell>{placeData.percent}%</TableCell>
@@ -86,11 +96,15 @@ export default function MunicipalityCard({ className }) {
         <CardDescription className="mt-[2rem] text-[0.9rem] h-auto scroll overflow-hidden">
           <p>Other Languages/Dialects Spoken</p>
 
-          {placeDetails.other_languages && (
-            <div className="grid grid-cols-4">
-              {placeDetails.other_languages.map((otherlanguage, index) => (
-                <Badge key={index} className="mt-[1rem]">
-                  <div className="w-[5rem] h-[2rem] text-[1rem] justify-center items-center flex">
+          {placeDetails.other_langauges && (
+            <div className="flex flex-wrap gap-x-[.5rem] gap-y-0 h-auto">
+              {placeDetails.other_langauges.map((otherlanguage, index) => (
+                <Badge
+                  key={index}
+                  className="mt-[1rem]"
+                  style={{ background: colors[index] }}
+                >
+                  <div className="w-auto h-[2rem] text-[1rem] justify-center items-center flex">
                     {otherlanguage}
                   </div>
                 </Badge>
