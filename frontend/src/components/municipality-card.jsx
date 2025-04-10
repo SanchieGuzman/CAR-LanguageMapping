@@ -10,38 +10,31 @@ export default function MunicipalityCard({ className }) {
   );
 
   const colors = [
-    "#FF7373",
-    "#CDFFC7",
-    "#EEFFC7",
-    "#B8DFFF",
+    "#FF5050",
+    "#88ff79",
+    "#FFC923",
+    "#80C6FF",
     "#CEB4FB",
-    "FBB4EC",
+    "#FBB4EC",
   ];
 
   const placeDetails = municipalityData;
   console.log(placeDetails);
 
   const [imageUrl, setImageUrl] = useState(null);
-  const [imageLoading, setImageLoading] = useState(true); // Track loading state
 
   useEffect(() => {
     if (municipalityData?.municipality_image?.data) {
       const byteArray = new Uint8Array(
         municipalityData.municipality_image.data
       );
-      const blob = new Blob([byteArray], { type: "image/jpeg" }); // or png, depending on your DB
+      const blob = new Blob([byteArray], { type: "buffer" }); 
       const url = URL.createObjectURL(blob);
       setImageUrl(url);
 
-      // Optional cleanup
       return () => URL.revokeObjectURL(url);
     }
   }, [municipalityData]);
-
-  // Handler to mark the image as fully loaded
-  const handleImageLoad = () => {
-    setImageLoading(false);
-  };
 
   if (!municipalityData) {
     return (
@@ -55,15 +48,15 @@ export default function MunicipalityCard({ className }) {
 
   return (
     <Card className={`${className}  pt-0 h-full overflow-y-scroll gap-[.5rem]`}>
-      <div className="w-full min-h-[30vh] shadow-lg rounded-t-md">
-        <img
+      <div className="w-full min-h-[30vh] max-h-[30vh] shadow-lg rounded-t-md">
+        <img 
           src={imageUrl}
           alt=""
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover object-center rounded-md"
         />
       </div>
-      <CardHeader className="text-justify min-w-[4rem] max-h">
-        <CardDescription className="leading-none h-[4.875rem] text-[.9rem]">
+      <CardHeader className="text-justify min-w-[4rem]">
+        <CardDescription className="h-auto text-[.9rem]">
           {placeDetails.municipality_description}
         </CardDescription>
       </CardHeader>
@@ -102,7 +95,7 @@ export default function MunicipalityCard({ className }) {
                 <Badge
                   key={index}
                   className="mt-[1rem]"
-                  style={{ background: colors[index] }}
+                  style={{ background: colors[index % colors.length] }}
                 >
                   <div className="w-auto h-[2rem] text-[1rem] justify-center items-center flex">
                     {otherlanguage}
