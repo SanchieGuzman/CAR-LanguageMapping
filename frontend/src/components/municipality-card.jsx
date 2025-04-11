@@ -19,7 +19,6 @@ export default function MunicipalityCard({ className }) {
   ];
 
   const placeDetails = municipalityData;
-  console.log(placeDetails);
 
   const [imageUrl, setImageUrl] = useState(null);
 
@@ -28,7 +27,8 @@ export default function MunicipalityCard({ className }) {
       const byteArray = new Uint8Array(
         municipalityData.municipality_image.data
       );
-      const blob = new Blob([byteArray], { type: "buffer" }); 
+      console.log("Image byte length:", municipalityData?.municipality_image?.data?.length);
+      const blob = new Blob([byteArray], { type: "image/*" }); 
       const url = URL.createObjectURL(blob);
       setImageUrl(url);
 

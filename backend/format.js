@@ -27,5 +27,5 @@ export function format(databaseResults) {
 }
 
 function compute_percentage(count, total){
-    return (count/total) * 100;
+    return ((count/total) * 100).toFixed(2);
 }
