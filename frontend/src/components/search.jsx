@@ -34,6 +34,7 @@ function SearchBar() {
   const handleOnClick = (chosenMunicipality) => {
     setIsOpen(false); // close search results
     searchRef.current.value = ''; //reset search bar
+    setSearchResults([])
     const id = getIdByMunicipalityName(chosenMunicipality);
     fetchMunicipalityDataById(id);
   }
