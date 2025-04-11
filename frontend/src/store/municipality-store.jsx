@@ -13,6 +13,8 @@ export const useMunicipalityStore = create((set) => ({
       });
 
       const data = await response.json();
+      console.log(data);
+      
       set({ municipalityData: data });
     } catch (error) {
       console.error("Error fetching municipality data:", error);
