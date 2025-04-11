@@ -11,8 +11,9 @@ const municipalities = Array.from(municipalityIdMapping.keys()); // municipality
 function SearchBar() {
   const [searchResults, setSearchResults] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
-  const wrapperRef = useRef(null);
   const fetchMunicipalityDataById = useMunicipalityStore((state)=> state.fetchMunicipalityDataById);
+  const wrapperRef = useRef(null);
+  const searchRef = useRef(null);
 
   // search bar onchange
   const debouncedOnChange = debounce((e) => {
@@ -31,8 +32,9 @@ function SearchBar() {
 
   // clicking a place in search results
   const handleOnClick = (chosenMunicipality) => {
+    setIsOpen(false); // close search results
+    searchRef.current.value = ''; //reset search bar
     const id = getIdByMunicipalityName(chosenMunicipality);
-    setIsOpen(false);
     fetchMunicipalityDataById(id);
   }
 
@@ -57,6 +59,7 @@ function SearchBar() {
       <div className="relative">
         <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
         <Input
+          ref={searchRef}
           type="search"
           placeholder="Search here..."
           className="pl-10 pr-4 py-2"

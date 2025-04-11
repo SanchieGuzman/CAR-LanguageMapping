@@ -79,5 +79,5 @@ export const municipalityIdMapping = new Map([
 ]);
 
 export function getIdByMunicipalityName(chosenMunicipality){
-    municipalityIdMapping.get(chosenMunicipality);
+    return municipalityIdMapping.get(chosenMunicipality);
 }
