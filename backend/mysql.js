@@ -90,6 +90,68 @@ class Database {
             return { error: 'error' };
         }
     }
+
+    async getProvinceLanguageSummation(province_id){
+        const query = `SELECT SUM(count) AS SUM
+                       FROM MUNILANGUAGE WHERE municipality_id = ?`;
+        const params = [province_id];
+    
+        try {
+            const results = await this.execute(query, params);
+            return results[0];
+        } catch (error) {
+            console.log("Error:", error);
+            return { error: 'error' }; 
+        }
+    }
+
+    async getProvinceInformation(province_id) {
+        const query = `SELECT province_name, province_image, province_information, information_source 
+                       FROM provinces WHERE province_id = ?`;
+        const params = [province_id];
+    
+        try {
+            const results = await this.execute(query, params);
+            return results[0];
+        } catch (error) {
+            console.log("Error:", error);
+            return { error: 'error' }; 
+        }
+    }
+
+    async getProvinceLanguages(province_id) {
+        const query_main = `
+             SELECT 
+                l.language_name,
+                SUM(ml.count) AS count
+            FROM PROVINCES p
+            JOIN Municipalities m USING (province_id)
+            JOIN MuniLanguage ml ON m.municipality_id = ml.municipality_id
+            JOIN Languages l ON ml.language_id = l.language_id
+            WHERE p.province_id = ?
+            GROUP BY p.province_id, l.language_id, l.language_name
+            ORDER BY count DESC;
+        `;
+        const params_main = [province_id];
+    
+        try {
+            const [provinceInfo, languages, summation] = await Promise.all([
+                this.getProvinceInformation(province_id), 
+                this.execute(query_main, params_main),
+                this.getProvinceLanguageSummation(province_id)   
+            ]);
+    
+            return {
+                province_id,
+                ...provinceInfo,  
+                languages,
+                summation             
+            };
+        } catch (error) {
+            console.log("Error: ", error);
+            return { error: 'error' };
+        }
+    }
     execute(query, params = []) {
         return new Promise((resolve, reject) => {
             this.pool.query(query, params, (err, results) => {
