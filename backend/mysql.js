@@ -1,65 +1,65 @@
 import mysql2 from "mysql2";
 
 class Database {
-    static instance;
+  static instance;
 
-    constructor() {
-        this.pool = mysql2.createPool({
-            host: process.env.MYSQL_HOST,
-            database: process.env.MYSQL_DATABASE,
-            user: process.env.MYSQL_USER,
-            password: process.env.MYSQL_PASSWORD,
-        });
-    }
+  constructor() {
+    this.pool = mysql2.createPool({
+      host: process.env.MYSQL_HOST,
+      database: process.env.MYSQL_DATABASE,
+      user: process.env.MYSQL_USER,
+      password: process.env.MYSQL_PASSWORD,
+    });
+  }
 
-    static getInstance() {
-        if (!Database.instance) {
-            Database.instance = new Database();
-        }
-        return Database.instance;
+  static getInstance() {
+    if (!Database.instance) {
+      Database.instance = new Database();
     }
+    return Database.instance;
+  }
 
-    async testMethod(municipality_id) {
-        const query = `SELECT * FROM municipalities WHERE municipality_id = ?`;
-        const params = [municipality_id];
-        try {
-            const results = await this.execute(query, params);
-            return results;
-        } catch (error) {
-            console.log("Error: ", error);
-            return { error: 'error' };
-        }
+  async testMethod(municipality_id) {
+    const query = `SELECT * FROM municipalities WHERE municipality_id = ?`;
+    const params = [municipality_id];
+    try {
+      const results = await this.execute(query, params);
+      return results;
+    } catch (error) {
+      console.log("Error: ", error);
+      return { error: "error" };
     }
-    async getMunicipalityLanguageSummation(municipality_id){
-        const query = `SELECT SUM(count) AS SUM
+  }
+  async getMunicipalityLanguageSummation(municipality_id) {
+    const query = `SELECT SUM(count) AS SUM
                        FROM MUNILANGUAGE WHERE municipality_id = ?`;
-        const params = [municipality_id];
-    
-        try {
-            const results = await this.execute(query, params);
-            return results[0];
-        } catch (error) {
-            console.log("Error:", error);
-            return { error: 'error' }; 
-        }
-    }
+    const params = [municipality_id];
 
-    async getMunicipalityInformation(municipality_id) {
-        const query = `SELECT municipality_name, municipality_image, municipality_information, information_source 
-                       FROM municipalities WHERE municipality_id = ?`;
-        const params = [municipality_id];
-    
-        try {
-            const results = await this.execute(query, params);
-            return results[0];
-        } catch (error) {
-            console.log("Error:", error);
-            return { error: 'error' }; 
-        }
+    try {
+      const results = await this.execute(query, params);
+      return results[0];
+    } catch (error) {
+      console.log("Error:", error);
+      return { error: "error" };
     }
-    
-    async getMunicipalityLanguages(municipality_id) {
-        const query_main = `
+  }
+
+  async getMunicipalityInformation(municipality_id) {
+    const query = `SELECT municipality_name, municipality_image, municipality_information, information_source 
+                       FROM municipalities WHERE municipality_id = ?`;
+    const params = [municipality_id];
+
+    try {
+      const results = await this.execute(query, params);
+      return results[0];
+    } catch (error) {
+      console.log("Error:", error);
+      return { error: "error" };
+    }
+  }
+
+  async getMunicipalityLanguages(municipality_id) {
+    const query_main = `
             SELECT 
                 l.language_name,
                 SUM(ml.count) AS count
@@ -70,57 +70,57 @@ class Database {
             GROUP BY m.municipality_id, l.language_id, l.language_name
             ORDER BY count DESC;
         `;
-        const params_main = [municipality_id];
-    
-        try {
-            const [municipalityInfo, languages, summation] = await Promise.all([
-                this.getMunicipalityInformation(municipality_id), 
-                this.execute(query_main, params_main),
-                this.getMunicipalityLanguageSummation(municipality_id)   
-            ]);
-    
-            return {
-                municipality_id,
-                ...municipalityInfo,  
-                languages,
-                summation             
-            };
-        } catch (error) {
-            console.log("Error: ", error);
-            return { error: 'error' };
-        }
-    }
+    const params_main = [municipality_id];
 
-    async getProvinceLanguageSummation(province_id){
-        const query = `SELECT SUM(count) AS SUM
+    try {
+      const [municipalityInfo, languages, summation] = await Promise.all([
+        this.getMunicipalityInformation(municipality_id),
+        this.execute(query_main, params_main),
+        this.getMunicipalityLanguageSummation(municipality_id),
+      ]);
+
+      return {
+        municipality_id,
+        ...municipalityInfo,
+        languages,
+        summation,
+      };
+    } catch (error) {
+      console.log("Error: ", error);
+      return { error: "error" };
+    }
+  }
+
+  async getProvinceLanguageSummation(province_id) {
+    const query = `SELECT SUM(count) AS SUM
                        FROM MUNILANGUAGE WHERE municipality_id = ?`;
-        const params = [province_id];
-    
-        try {
-            const results = await this.execute(query, params);
-            return results[0];
-        } catch (error) {
-            console.log("Error:", error);
-            return { error: 'error' }; 
-        }
-    }
+    const params = [province_id];
 
-    async getProvinceInformation(province_id) {
-        const query = `SELECT province_name, province_image, province_information, information_source 
+    try {
+      const results = await this.execute(query, params);
+      return results[0];
+    } catch (error) {
+      console.log("Error:", error);
+      return { error: "error" };
+    }
+  }
+
+  async getProvinceInformation(province_id) {
+    const query = `SELECT province_name, province_image, province_information, information_source 
                        FROM provinces WHERE province_id = ?`;
-        const params = [province_id];
-    
-        try {
-            const results = await this.execute(query, params);
-            return results[0];
-        } catch (error) {
-            console.log("Error:", error);
-            return { error: 'error' }; 
-        }
-    }
+    const params = [province_id];
 
-    async getProvinceLanguages(province_id) {
-        const query_main = `
+    try {
+      const results = await this.execute(query, params);
+      return results[0];
+    } catch (error) {
+      console.log("Error:", error);
+      return { error: "error" };
+    }
+  }
+
+  async getProvinceLanguages(province_id) {
+    const query_main = `
              SELECT 
                 l.language_name,
                 SUM(ml.count) AS count
@@ -132,34 +132,34 @@ class Database {
             GROUP BY p.province_id, l.language_id, l.language_name
             ORDER BY count DESC;
         `;
-        const params_main = [province_id];
-    
-        try {
-            const [provinceInfo, languages, summation] = await Promise.all([
-                this.getProvinceInformation(province_id), 
-                this.execute(query_main, params_main),
-                this.getProvinceLanguageSummation(province_id)   
-            ]);
-    
-            return {
-                province_id,
-                ...provinceInfo,  
-                languages,
-                summation             
-            };
-        } catch (error) {
-            console.log("Error: ", error);
-            return { error: 'error' };
-        }
+    const params_main = [province_id];
+
+    try {
+      const [provinceInfo, languages, summation] = await Promise.all([
+        this.getProvinceInformation(province_id),
+        this.execute(query_main, params_main),
+        this.getProvinceLanguageSummation(province_id),
+      ]);
+
+      return {
+        province_id,
+        ...provinceInfo,
+        languages,
+        summation,
+      };
+    } catch (error) {
+      console.log("Error: ", error);
+      return { error: "error" };
     }
-    execute(query, params = []) {
-        return new Promise((resolve, reject) => {
-            this.pool.query(query, params, (err, results) => {
-                if (err) return reject(err);
-                resolve(results);
-            });
-        });
-    }
+  }
+  execute(query, params = []) {
+    return new Promise((resolve, reject) => {
+      this.pool.query(query, params, (err, results) => {
+        if (err) return reject(err);
+        resolve(results);
+      });
+    });
+  }
 }
 
 export default Database;

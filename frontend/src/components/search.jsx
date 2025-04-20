@@ -1,8 +1,11 @@
-'use client'
+"use client";
 
-import { Input } from "./ui/input"
-import { getIdByMunicipalityName, municipalityIdMapping } from "../lib/getIdByMunicipalityName";
-import { Search } from 'lucide-react'
+import { Input } from "./ui/input";
+import {
+  getIdByMunicipalityName,
+  municipalityIdMapping,
+} from "../lib/getIdByMunicipalityName";
+import { Search } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import debounce from "lodash.debounce";
 import { useMunicipalityStore } from "../store/municipality-store";
@@ -11,42 +14,45 @@ const municipalities = Array.from(municipalityIdMapping.keys()); // municipality
 function SearchBar() {
   const [searchResults, setSearchResults] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
-  const fetchMunicipalityDataById = useMunicipalityStore((state)=> state.fetchMunicipalityDataById);
+  const fetchMunicipalityDataById = useMunicipalityStore(
+    (state) => state.fetchMunicipalityDataById
+  );
   const wrapperRef = useRef(null);
   const searchRef = useRef(null);
 
   // search bar onchange
   const debouncedOnChange = debounce((e) => {
-    const searchKey = e.target.value.trim().replaceAll('-', '');
-    
-    if(searchKey.length > 0) {
-      setIsOpen(true)
-      //filter based on input
-      const results = municipalities.filter((name) => {return name.toLowerCase().includes(searchKey)})
-      setSearchResults(results);      
-    }else{
-      setIsOpen(false)
-    };
+    const searchKey = e.target.value.trim().replaceAll("-", "");
 
+    if (searchKey.length > 0) {
+      setIsOpen(true);
+      //filter based on input
+      const results = municipalities.filter((name) => {
+        return name.toLowerCase().includes(searchKey);
+      });
+      setSearchResults(results);
+    } else {
+      setIsOpen(false);
+    }
   }, 250);
 
   // clicking a place in search results
   const handleOnClick = (chosenMunicipality) => {
     setIsOpen(false); // close search results
-    searchRef.current.value = ''; //reset search bar
-    setSearchResults([])
+    searchRef.current.value = ""; //reset search bar
+    setSearchResults([]);
     const id = getIdByMunicipalityName(chosenMunicipality);
     fetchMunicipalityDataById(id);
-  }
+  };
 
   // closes the search results div when it loses focus
   useEffect(() => {
-    const handleClickOutside = (event) =>  {
+    const handleClickOutside = (event) => {
       if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
         setIsOpen(false);
       }
-    }
-  
+    };
+
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
@@ -70,28 +76,29 @@ function SearchBar() {
       </div>
 
       {/* search results container*/}
-      {isOpen && 
-        <div ref={wrapperRef} className="absolute z-10 h-fit max-h-82 w-full bg-primary-foreground shadow-lg rounded-b-lg border-2 mt-1 overflow-y-auto">
+      {isOpen && (
+        <div
+          ref={wrapperRef}
+          className="absolute z-10 h-fit max-h-82 w-full bg-primary-foreground shadow-lg rounded-b-lg border-2 mt-1 overflow-y-auto"
+        >
           <ul>
-            {searchResults.length > 0 ? 
-              searchResults
-                .map((result, index) => (
-                  <li 
-                    key={index}
-                    className="min-h-8 max-h-8 px-2 py-2 hover:bg-muted cursor-pointer flex items-center gap-2 capitalize"
-                    onClick={()=>handleOnClick(result)}
-                  >
-                    <Search className="h-4"></Search>
-                    {result.replace(/-(?=[^-]*$)/, ', ')}
-                  </li>
-                ))
-                : 
-                <li className="p-2 text-muted-foreground">No results found</li>
-            }
-            
+            {searchResults.length > 0 ? (
+              searchResults.map((result, index) => (
+                <li
+                  key={index}
+                  className="min-h-8 max-h-8 px-2 py-2 hover:bg-muted cursor-pointer flex items-center gap-2 capitalize"
+                  onClick={() => handleOnClick(result)}
+                >
+                  <Search className="h-4"></Search>
+                  {result.replace(/-(?=[^-]*$)/, ", ")}
+                </li>
+              ))
+            ) : (
+              <li className="p-2 text-muted-foreground">No results found</li>
+            )}
           </ul>
         </div>
-      }
+      )}
     </div>
   );
 }

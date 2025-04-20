@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Card, CardDescription, CardHeader, CardContent } from "./ui/card";
-import { useMunicipalityStore } from "../store/municipality-store";
+import { useMunicipalityProvinceStore } from "../store/municipality-province-store";
 import { Badge } from "../components/ui/badge";
 import { Table, TableRow, TableCell } from "../components/ui/table";
 
 export default function MunicipalityCard({ className }) {
-  const municipalityData = useMunicipalityStore(
-    (state) => state.municipalityData
+  const placeData = useMunicipalityProvinceStore((state) => state.CARData);
+  const selectedLevel = useMunicipalityProvinceStore(
+    (state) => state.selectedLevel
   );
 
   const colors = [
@@ -18,25 +19,31 @@ export default function MunicipalityCard({ className }) {
     "#FBB4EC",
   ];
 
-  const placeDetails = municipalityData;
+  const placeDetails = placeData;
 
   const [imageUrl, setImageUrl] = useState(null);
 
+  const imageKey =
+    selectedLevel === "Municipality Level"
+      ? "municipality_image"
+      : "province_image";
+
   useEffect(() => {
-    if (municipalityData?.municipality_image?.data) {
-      const byteArray = new Uint8Array(
-        municipalityData.municipality_image.data
+    if (placeData?.[imageKey]?.data) {
+      const byteArray = new Uint8Array(placeData.municipality_image.data);
+      console.log(
+        "Image byte length:",
+        placeData?.municipality_image?.data?.length
       );
-      console.log("Image byte length:", municipalityData?.municipality_image?.data?.length);
-      const blob = new Blob([byteArray], { type: "image/*" }); 
+      const blob = new Blob([byteArray], { type: "image/*" });
       const url = URL.createObjectURL(blob);
       setImageUrl(url);
 
       return () => URL.revokeObjectURL(url);
     }
-  }, [municipalityData]);
+  }, [placeData]);
 
-  if (!municipalityData) {
+  if (!placeData) {
     return (
       <Card
         className={`${className} relative pt-0 flex items-center justify-center h-[30vh]`}
@@ -46,10 +53,19 @@ export default function MunicipalityCard({ className }) {
     );
   }
 
+  const nameKey =
+    selectedLevel === "Municipality Level"
+      ? "municipality_name"
+      : "province_name";
+  const descriptionKey =
+    selectedLevel === "Municipality Level"
+      ? "municipality_description"
+      : "province_description";
+
   return (
     <Card className={`${className}  pt-0 h-full overflow-y-scroll gap-[.5rem]`}>
       <div className="w-full min-h-[30vh] max-h-[30vh] shadow-lg rounded-t-md">
-        <img 
+        <img
           src={imageUrl}
           alt=""
           className="w-full h-full object-cover object-center rounded-md"
@@ -57,7 +73,7 @@ export default function MunicipalityCard({ className }) {
       </div>
       <CardHeader className="text-justify min-w-[4rem]">
         <CardDescription className="h-auto text-[.9rem]">
-          {placeDetails.municipality_description}
+          {placeDetails[descriptionKey]}
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -65,7 +81,7 @@ export default function MunicipalityCard({ className }) {
           <p className=" h-12">
             {" "}
             Five Leading Languages/Dialects Generally Spoken at Home in "
-            {placeDetails.municipality_name}"
+            {placeDetails[nameKey]}"
           </p>
           <Table>
             <tbody>

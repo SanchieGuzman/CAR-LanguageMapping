@@ -19,7 +19,7 @@ app.post("/municipality", async (req, res) => {
 });
 
 app.post("/province", async (req, res) => {
-  const municipality_id = req.body.municipality_id;
+  const province_id = req.body.province_id;
   const db = Database.getInstance();
   const result = await db.getProvinceLanguages(province_id);
   const finalJson = format(result);

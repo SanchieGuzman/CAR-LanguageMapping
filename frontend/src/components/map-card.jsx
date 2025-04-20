@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Card, CardHeader, CardTitle } from "./ui/card";
-import { useMunicipalityStore } from "../store/municipality-store";
+import { useMunicipalityProvinceStore } from "../store/municipality-province-store";
 import { Button } from "../components/ui/button";
 import {
   DropdownMenu,
@@ -12,14 +12,19 @@ import {
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 export default function MapCard({ className }) {
-  const fetchMunicipalityDataById = useMunicipalityStore(
-    (state) => state.fetchMunicipalityDataById
+  const fetchPlaceDataById = useMunicipalityProvinceStore(
+    (state) => state.fetchPlaceDataById
   );
 
-  const [mapLevel, setMapLevel] = useState("Municipality Level");
+  const selectedLevel = useMunicipalityProvinceStore(
+    (state) => state.selectedLevel
+  );
+
+  const setSelectedLevel = useMunicipalityProvinceStore(
+    (state) => state.setSelectedLevel
+  );
 
   useEffect(() => {
-    // Attach click handlers to SVG paths once the DOM is ready
     const paths = document.querySelectorAll("svg path");
 
     const handlePathClick = (event) => {
@@ -27,19 +32,17 @@ export default function MapCard({ className }) {
 
       paths.forEach((path) => path.classList.remove("selected"));
 
-      // Add `.selected` to the clicked path
       event.target.classList.add("selected");
 
-      // Dispatch custom event (optional, if still needed elsewhere)
       window.dispatchEvent(new CustomEvent("svgClick", { detail: clickedId }));
 
-      fetchMunicipalityDataById(clickedId);
+      fetchPlaceDataById(clickedId, selectedLevel);
     };
 
     paths.forEach((path) => {
       path.addEventListener("click", handlePathClick);
     });
-  }, [mapLevel]); // run on mount
+  }, [selectedLevel]); // run on mount
 
   return (
     <Card className={`${className} flex flex-col`}>
@@ -48,7 +51,7 @@ export default function MapCard({ className }) {
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline">
-              {mapLevel}
+              {selectedLevel}
               <RiArrowDropDownLine className="size-8 " />
             </Button>
           </DropdownMenuTrigger>
@@ -60,7 +63,7 @@ export default function MapCard({ className }) {
                     .querySelectorAll("svg path.selected")
                     .forEach((p) => p.classList.remove("selected"));
 
-                  setMapLevel("Municipality Level");
+                  setSelectedLevel("Municipality Level", selectedLevel);
                 }}
               >
                 Municipality Level
@@ -71,7 +74,7 @@ export default function MapCard({ className }) {
                     .querySelectorAll("svg path.selected")
                     .forEach((p) => p.classList.remove("selected"));
 
-                  setMapLevel("Provincial Level");
+                  setSelectedLevel("Provincial Level");
                 }}
               >
                 Provincial Level
@@ -83,7 +86,7 @@ export default function MapCard({ className }) {
 
       <div className="h-full flex justify-center items-center px-4 pb-4">
         <div className="w-full h-full relative">
-          {mapLevel === "Municipality Level" ? (
+          {selectedLevel === "Municipality Level" ? (
             <svg
               version="1.1"
               id="svg1"
