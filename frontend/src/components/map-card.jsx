@@ -24,10 +24,6 @@ export default function MapCard({ className }) {
     (state) => state.setSelectedLevel
   );
 
-  const error = useDataStore(
-    (state) => state.error
-  );
-
   useEffect(() => {
     const paths = document.querySelectorAll("svg path");
 
@@ -38,7 +34,7 @@ export default function MapCard({ className }) {
 
       event.target.classList.add("selected");
 
-      window.dispatchEvent(new CustomEvent("svgClick", { detail: clickedId }));
+      // window.dispatchEvent(new CustomEvent("svgClick", { detail: clickedId }));
 
       fetchPlaceDataById(clickedId, selectedLevel);
     };
@@ -46,6 +42,13 @@ export default function MapCard({ className }) {
     paths.forEach((path) => {
       path.addEventListener("click", handlePathClick);
     });
+
+    // Cleanup function
+    return () => {
+      paths.forEach((path) => {
+        path.removeEventListener("click", handlePathClick);
+      });
+    };
   }, [selectedLevel]); // when selected level changes
 
   return (
@@ -54,7 +57,7 @@ export default function MapCard({ className }) {
         <CardTitle>CAR Map:</CardTitle>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline">
+            <Button variant="outline" className="w-fit">
               {selectedLevel === 0 ? "Municipality Level" : "Province Level"}
               <RiArrowDropDownLine className="size-8 " />
             </Button>

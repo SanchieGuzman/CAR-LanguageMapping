@@ -15,7 +15,7 @@ function SearchBar() {
   const [searchResults, setSearchResults] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
 
-  const fetchMunicipalityDataById = useDataStore(
+  const fetchPlaceDataById = useDataStore(
     (state) => state.fetchPlaceDataById
   );
   const setSelectedLevel = useDataStore(
@@ -48,7 +48,7 @@ function SearchBar() {
     searchRef.current.value = ""; //reset search bar
     setSearchResults([]);
     const id = getIdByMunicipalityName(chosenMunicipality);
-    fetchMunicipalityDataById(id);
+    fetchPlaceDataById(id, 0);
   };
 
   // closes the search results div when it loses focus

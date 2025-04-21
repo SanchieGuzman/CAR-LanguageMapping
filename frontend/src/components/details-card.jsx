@@ -6,9 +6,6 @@ import { Table, TableRow, TableCell } from "./ui/table";
 
 export default function DetailsCard({ className }) {
   const placeData = useDataStore((state) => state.data);
-  const selectedLevel = useDataStore(
-    (state) => state.selectedLevel
-  );
 
   const colors = [
     "#FF5050",
@@ -19,26 +16,14 @@ export default function DetailsCard({ className }) {
     "#FBB4EC",
   ];
 
-  const placeDetails = placeData;
-
   const [imageUrl, setImageUrl] = useState(null);
 
-  const imageKey =
-    selectedLevel === "Municipality Level"
-      ? "municipality_image"
-      : "province_image";
-
   useEffect(() => {
-    if (placeData?.[imageKey]?.data) {
-      const byteArray = new Uint8Array(placeData.municipality_image.data);
-      console.log(
-        "Image byte length:",
-        placeData?.municipality_image?.data?.length
-      );
+    if (placeData?.place_image?.data) {
+      const byteArray = new Uint8Array(placeData.place_image.data);
       const blob = new Blob([byteArray], { type: "image/*" });
       const url = URL.createObjectURL(blob);
       setImageUrl(url);
-
       return () => URL.revokeObjectURL(url);
     }
   }, [placeData]);
@@ -53,15 +38,6 @@ export default function DetailsCard({ className }) {
     );
   }
 
-  const nameKey =
-    selectedLevel === "Municipality Level"
-      ? "municipality_name"
-      : "province_name";
-  const descriptionKey =
-    selectedLevel === "Municipality Level"
-      ? "municipality_description"
-      : "province_description";
-
   return (
     <Card className={`${className}  pt-0 h-full overflow-y-scroll gap-[.5rem]`}>
       <div className="w-full min-h-[30vh] max-h-[30vh] shadow-lg rounded-t-md">
@@ -73,7 +49,7 @@ export default function DetailsCard({ className }) {
       </div>
       <CardHeader className="text-justify min-w-[4rem]">
         <CardDescription className="h-auto text-[.9rem]">
-          {placeDetails[descriptionKey]}
+          {placeData.place_description}
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -81,11 +57,11 @@ export default function DetailsCard({ className }) {
           <p className=" h-12">
             {" "}
             Five Leading Languages/Dialects Generally Spoken at Home in "
-            {placeDetails[nameKey]}"
+            {placeData.place_name}"
           </p>
           <Table>
             <tbody>
-              {placeDetails.languages.map((placeData, index) => (
+              {placeData.languages.map((placeData, index) => (
                 <TableRow key={index}>
                   <TableCell>
                     <div
@@ -105,9 +81,9 @@ export default function DetailsCard({ className }) {
         <CardDescription className="mt-[2rem] text-[0.9rem] h-auto scroll overflow-hidden">
           <p>Other Languages/Dialects Spoken</p>
 
-          {placeDetails.other_langauges && (
+          {placeData.other_langauges && (
             <div className="flex flex-wrap gap-x-[.5rem] gap-y-0 h-auto">
-              {placeDetails.other_langauges.map((otherlanguage, index) => (
+              {placeData.other_langauges.map((otherlanguage, index) => (
                 <Badge
                   key={index}
                   className="mt-[1rem]"

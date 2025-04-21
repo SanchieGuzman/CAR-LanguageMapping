@@ -22,8 +22,6 @@ export const useDataStore = create((set) => ({
 
       const text = await response.text();
       const data = JSON.parse(text);
-      console.log(data);
-
       set({ data: data });
     } catch (error) {
       console.error("Error fetching data:", error);
