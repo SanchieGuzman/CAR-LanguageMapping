@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Card, CardDescription, CardHeader, CardContent } from "./ui/card";
-import { useMunicipalityProvinceStore } from "../store/municipality-province-store";
-import { Badge } from "../components/ui/badge";
-import { Table, TableRow, TableCell } from "../components/ui/table";
+import { useDataStore } from "../store/data-store";
+import { Badge } from "./ui/badge";
+import { Table, TableRow, TableCell } from "./ui/table";
 
-export default function MunicipalityCard({ className }) {
-  const placeData = useMunicipalityProvinceStore((state) => state.CARData);
-  const selectedLevel = useMunicipalityProvinceStore(
+export default function DetailsCard({ className }) {
+  const placeData = useDataStore((state) => state.data);
+  const selectedLevel = useDataStore(
     (state) => state.selectedLevel
   );
 

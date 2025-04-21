@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Card, CardHeader, CardTitle } from "./ui/card";
-import { useMunicipalityProvinceStore } from "../store/municipality-province-store";
+import { useDataStore, } from "../store/data-store";
 import { Button } from "../components/ui/button";
 import {
   DropdownMenu,
@@ -12,16 +12,20 @@ import {
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 export default function MapCard({ className }) {
-  const fetchPlaceDataById = useMunicipalityProvinceStore(
+  const fetchPlaceDataById = useDataStore(
     (state) => state.fetchPlaceDataById
   );
 
-  const selectedLevel = useMunicipalityProvinceStore(
+  const selectedLevel = useDataStore(
     (state) => state.selectedLevel
   );
 
-  const setSelectedLevel = useMunicipalityProvinceStore(
+  const setSelectedLevel = useDataStore(
     (state) => state.setSelectedLevel
+  );
+
+  const error = useDataStore(
+    (state) => state.error
   );
 
   useEffect(() => {
@@ -42,7 +46,7 @@ export default function MapCard({ className }) {
     paths.forEach((path) => {
       path.addEventListener("click", handlePathClick);
     });
-  }, [selectedLevel]); // run on mount
+  }, [selectedLevel]); // when selected level changes
 
   return (
     <Card className={`${className} flex flex-col`}>
@@ -51,7 +55,7 @@ export default function MapCard({ className }) {
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline">
-              {selectedLevel}
+              {selectedLevel === 0 ? "Municipality Level" : "Province Level"}
               <RiArrowDropDownLine className="size-8 " />
             </Button>
           </DropdownMenuTrigger>
@@ -63,7 +67,7 @@ export default function MapCard({ className }) {
                     .querySelectorAll("svg path.selected")
                     .forEach((p) => p.classList.remove("selected"));
 
-                  setSelectedLevel("Municipality Level", selectedLevel);
+                  setSelectedLevel(0); // 0 for municipality
                 }}
               >
                 Municipality Level
@@ -74,7 +78,7 @@ export default function MapCard({ className }) {
                     .querySelectorAll("svg path.selected")
                     .forEach((p) => p.classList.remove("selected"));
 
-                  setSelectedLevel("Provincial Level");
+                  setSelectedLevel(1); // 1 for province level
                 }}
               >
                 Provincial Level
@@ -86,7 +90,7 @@ export default function MapCard({ className }) {
 
       <div className="h-full flex justify-center items-center px-4 pb-4">
         <div className="w-full h-full relative">
-          {selectedLevel === "Municipality Level" ? (
+          {selectedLevel === 0 ? ( // 0 for municipality
             <svg
               version="1.1"
               id="svg1"

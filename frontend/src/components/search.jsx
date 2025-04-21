@@ -7,16 +7,21 @@ import {
 } from "../lib/getIdByMunicipalityName";
 import { Search } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
+import { useDataStore } from "../store/data-store";
 import debounce from "lodash.debounce";
-import { useMunicipalityStore } from "../store/municipality-store";
 const municipalities = Array.from(municipalityIdMapping.keys()); // municipality province names
 
 function SearchBar() {
   const [searchResults, setSearchResults] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
-  const fetchMunicipalityDataById = useMunicipalityStore(
-    (state) => state.fetchMunicipalityDataById
+
+  const fetchMunicipalityDataById = useDataStore(
+    (state) => state.fetchPlaceDataById
   );
+  const setSelectedLevel = useDataStore(
+    (state) => state.setSelectedLevel
+  );
+
   const wrapperRef = useRef(null);
   const searchRef = useRef(null);
 
@@ -38,6 +43,7 @@ function SearchBar() {
 
   // clicking a place in search results
   const handleOnClick = (chosenMunicipality) => {
+    setSelectedLevel(0); // automatic municipal level when searching
     setIsOpen(false); // close search results
     searchRef.current.value = ""; //reset search bar
     setSearchResults([]);

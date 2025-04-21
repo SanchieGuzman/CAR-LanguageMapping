@@ -9,7 +9,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Simple GET endpoint at /municipality
 app.post("/municipality", async (req, res) => {
   const municipality_id = req.body.municipality_id;
   const db = Database.getInstance();
@@ -25,24 +24,6 @@ app.post("/province", async (req, res) => {
   const finalJson = format(result);
   res.json(finalJson);
 });
-// //btw para mag process ng image kunin ko lang sa past proj
-
-//       // IMMAGE ISSUES
-//       // Convert the product.product_image to a Uint8Array
-//       const byteArray = new Uint8Array(product.product_image.data);
-
-//       // Create a Blob from the byteArray
-//       const blob = new Blob([byteArray], { type: "image/jpeg" }); // Adjust MIME type if necessary
-
-//       // Create a temporary object URL for the blob
-//       const imageUrl = URL.createObjectURL(blob);
-
-//       //image
-//       const itemImage = document.createElement("img");
-//       itemImage.classList.add("item-image");
-//       itemImage.src = imageUrl;
-//       itemImage.alt = product.product_name;
-//       itemCardImageContainer.appendChild(itemImage);
 
 const PORT = process.env.SERVER_PORT || 3001;
 
