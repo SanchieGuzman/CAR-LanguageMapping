@@ -10,7 +10,7 @@ export const useDataStore = create((set) => ({
   fetchPlaceDataById: async (placeId, level) => {
     try {
       const response = await fetch("http://localhost:3001/getPlaceData", {
-        method: "GET",
+        method: "POST",
         headers: {
           "Content-Type": "application/json",
         },

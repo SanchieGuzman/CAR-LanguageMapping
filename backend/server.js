@@ -9,18 +9,17 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.post("/municipality", async (req, res) => {
-  const municipality_id = req.body.municipality_id;
+app.post("/getPlaceData", async (req, res) => {
+  const place_id = req.body.placeId;
+  const level = req.body.level
   const db = Database.getInstance();
-  const result = await db.getMunicipalityLanguages(municipality_id);
-  const finalJson = format(result);
-  res.json(finalJson);
-});
 
-app.post("/province", async (req, res) => {
-  const province_id = req.body.province_id;
-  const db = Database.getInstance();
-  const result = await db.getProvinceLanguages(province_id);
+  let result; 
+  if(level === 0){ // municipality level
+    result = await db.getMunicipalityLanguages(place_id);
+  }else{ // province level
+    result = await db.getProvinceLanguages(place_id);
+  }  
   const finalJson = format(result);
   res.json(finalJson);
 });

@@ -6,7 +6,7 @@ export function format(databaseResults) {
         .map((langauge) => langauge.language_name);
 
     const top5Total = top5
-        .reduce((sum, language) => sum+ Number(language.count), 0);
+        .reduce((sum, language) => sum+ Number(language.count), 0); 
 
     const languages = top5
         .map((language) => ({
@@ -15,9 +15,9 @@ export function format(databaseResults) {
         }));
 
     const finalJson = {
-        "municipality_name" : databaseResults.municipality_name,
-        "municipality_image" : databaseResults.municipality_image,
-        "municipality_description" : databaseResults.municipality_information,
+        "place_name" : databaseResults.place_name,
+        "place_image" : databaseResults.place_image,
+        "place_description" : databaseResults.place_information,
         "information_source" : databaseResults.information_source,
         "languages" : languages,
         "other_langauges" : other_langauges

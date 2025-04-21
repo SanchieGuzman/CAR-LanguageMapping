@@ -19,25 +19,14 @@ class Database {
     return Database.instance;
   }
 
-  async testMethod(municipality_id) {
-    const query = `SELECT * FROM municipalities WHERE municipality_id = ?`;
-    const params = [municipality_id];
-    try {
-      const results = await this.execute(query, params);
-      return results;
-    } catch (error) {
-      console.log("Error: ", error);
-      return { error: "error" };
-    }
-  }
   async getMunicipalityLanguageSummation(municipality_id) {
     const query = `SELECT SUM(count) AS SUM
-                       FROM MUNILANGUAGE WHERE municipality_id = ?`;
+                    FROM MUNILANGUAGE WHERE municipality_id = ?`;
     const params = [municipality_id];
 
     try {
       const results = await this.execute(query, params);
-      return results[0];
+      return results[0].SUM;
     } catch (error) {
       console.log("Error:", error);
       return { error: "error" };
@@ -45,8 +34,8 @@ class Database {
   }
 
   async getMunicipalityInformation(municipality_id) {
-    const query = `SELECT municipality_name, municipality_image, municipality_information, information_source 
-                       FROM municipalities WHERE municipality_id = ?`;
+    const query = `SELECT municipality_name as place_name, municipality_image as place_image, municipality_information as place_information, information_source 
+                    FROM municipalities WHERE municipality_id = ?`;
     const params = [municipality_id];
 
     try {
@@ -80,7 +69,7 @@ class Database {
       ]);
 
       return {
-        municipality_id,
+        place_id: municipality_id,
         ...municipalityInfo,
         languages,
         summation,
@@ -93,12 +82,12 @@ class Database {
 
   async getProvinceLanguageSummation(province_id) {
     const query = `SELECT SUM(count) AS SUM
-                       FROM MUNILANGUAGE WHERE municipality_id = ?`;
+                      FROM MUNILANGUAGE WHERE municipality_id = ?`;
     const params = [province_id];
 
     try {
       const results = await this.execute(query, params);
-      return results[0];
+      return results[0].SUM;
     } catch (error) {
       console.log("Error:", error);
       return { error: "error" };
@@ -106,7 +95,7 @@ class Database {
   }
 
   async getProvinceInformation(province_id) {
-    const query = `SELECT province_name, province_image, province_information, information_source 
+    const query = `SELECT province_name as place_name, province_image as place_image, province_information as place_information, information_source 
                        FROM provinces WHERE province_id = ?`;
     const params = [province_id];
 
@@ -142,7 +131,7 @@ class Database {
       ]);
 
       return {
-        province_id,
+        place_id: province_id,
         ...provinceInfo,
         languages,
         summation,
