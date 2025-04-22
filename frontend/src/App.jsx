@@ -8,8 +8,8 @@ function App() {
       <Header></Header>
 
       {/* main content */}
-      <div className="max-h-[calc(100vh-4.5rem)] h-[calc(100vh-4.5rem)] overflow-hidden box-border p-5">
-        <div className="grid grid-cols-5 gap-5 h-full">
+      <div className="max-h-[calc(100vh-4.5rem)] h-[calc(100vh-4.5rem)] overflow-y-auto box-border p-5">
+        <div className="grid grid-rows-[80vh_60vh] grid-cols-5 gap-5 h-full">
           <MapCard className="col-span-5 md:col-span-3 h-full" />
           <DetailsCard className="col-span-5 md:col-span-2 h-full" />
         </div>

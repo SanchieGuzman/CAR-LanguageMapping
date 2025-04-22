@@ -84,22 +84,23 @@ export default function DetailsCard({ className }) {
           </Table>
         </CardDescription>
         <CardDescription className="mt-[2rem] text-[0.9rem] h-auto scroll overflow-hidden">
-          <p>Other Languages/Dialects Spoken</p>
-
-          {placeData.other_langauges && (
-            <div className="flex flex-wrap gap-x-[.5rem] gap-y-0 h-auto">
-              {placeData.other_langauges.map((otherlanguage, index) => (
-                <Badge
-                  key={index}
-                  className="mt-[1rem]"
-                  style={{ background: colors[index % colors.length] }}
-                >
-                  <div className="w-auto h-[2rem] text-[1rem] justify-center items-center flex">
-                    {otherlanguage}
-                  </div>
-                </Badge>
-              ))}
-            </div>
+          {placeData.other_langauges.length > 0 && (
+            <>
+              <p>Other Languages/Dialects Spoken</p>
+              <div className="flex flex-wrap gap-x-[.5rem] gap-y-0 h-auto">
+                {placeData.other_langauges.map((otherlanguage, index) => (
+                  <Badge
+                    key={index}
+                    className="mt-[1rem]"
+                    style={{ background: colors[index % colors.length] }}
+                  >
+                    <div className="w-auto h-[2rem] text-[1rem] justify-center items-center flex">
+                      {otherlanguage}
+                    </div>
+                  </Badge>
+                ))}
+              </div>
+            </>
           )}
         </CardDescription>
       </CardContent>

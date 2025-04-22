@@ -48,9 +48,9 @@ export default function MapCard({ className }) {
   }, [selectedLevel]); // when selected level changes
 
   return (
-    <Card className={`${className} flex flex-col`}>
-      <CardHeader className="flex items-center">
-        <CardTitle>CAR Map:</CardTitle>
+    <Card className={`${className} flex flex-col relative`}>
+      <CardHeader className="flex items-center justify-between sm:justify-start">
+
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" className="w-fit">
@@ -87,29 +87,6 @@ export default function MapCard({ className }) {
             </DropdownMenuGroup>
           </DropdownMenuContent>
         </DropdownMenu>
-        <div className="px-4 pb-4 absolute top-4 right-4 ">
-          <h3 className="font-semibold mb-2">Legend: </h3>
-          <ul className="flex-row flex-wrap gap-3">
-            <li className="flex items-center gap-2">
-              <span className="w-4 h-4 bg-amber-200"></span> Apayao 
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="w-4 h-4 bg-[#ff9c9c]"></span> Abra 
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="w-4 h-4 bg-blue-200"></span> Kalinga
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="w-4 h-4 bg-emerald-200"></span> Mountain Province
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="w-4 h-4 bg-orange-200"></span> Ifugao
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="w-4 h-4 bg-fuchsia-300"></span> Benguet
-            </li>
-          </ul>
-        </div>
       </CardHeader>
 
       <div className="h-full flex justify-center items-center px-4 pb-4">
@@ -604,6 +581,30 @@ export default function MapCard({ className }) {
           )}
         </div>
       </div>
+
+
+      <div className="px-4 pb-4 md:absolute md:right-0">
+          <ul className="flex md:flex-col justify-center flex-row flex-wrap gap-3">
+            <li className="flex items-center gap-2">
+              <span className="w-4 h-4 bg-amber-200"></span> Apayao 
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-4 h-4 bg-[#ff9c9c]"></span> Abra 
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-4 h-4 bg-blue-200"></span> Kalinga
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-4 h-4 bg-emerald-200"></span> Mountain Province
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-4 h-4 bg-orange-200"></span> Ifugao
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-4 h-4 bg-fuchsia-300"></span> Benguet
+            </li>
+          </ul>
+        </div>
     </Card>
   );
 }
