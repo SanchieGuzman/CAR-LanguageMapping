@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Card, CardHeader, CardTitle } from "./ui/card";
-import { useDataStore, } from "../store/data-store";
+import { useDataStore } from "../store/data-store";
 import { Button } from "../components/ui/button";
 import {
   DropdownMenu,
@@ -12,17 +12,13 @@ import {
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 export default function MapCard({ className }) {
-  const fetchPlaceDataById = useDataStore(
-    (state) => state.fetchPlaceDataById
-  );
+  const fetchPlaceDataById = useDataStore((state) => state.fetchPlaceDataById);
 
-  const selectedLevel = useDataStore(
-    (state) => state.selectedLevel
-  );
+  const selectedLevel = useDataStore((state) => state.selectedLevel);
 
-  const setSelectedLevel = useDataStore(
-    (state) => state.setSelectedLevel
-  );
+  const setSelectedLevel = useDataStore((state) => state.setSelectedLevel);
+
+  const resetStore = useDataStore((state) => state.resetStore);
 
   useEffect(() => {
     const paths = document.querySelectorAll("svg path");
@@ -71,6 +67,7 @@ export default function MapCard({ className }) {
                     .forEach((p) => p.classList.remove("selected"));
 
                   setSelectedLevel(0); // 0 for municipality
+                  resetStore();
                 }}
               >
                 Municipality Level
@@ -82,6 +79,7 @@ export default function MapCard({ className }) {
                     .forEach((p) => p.classList.remove("selected"));
 
                   setSelectedLevel(1); // 1 for province level
+                  resetStore();
                 }}
               >
                 Provincial Level

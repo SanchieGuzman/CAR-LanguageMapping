@@ -1,8 +1,14 @@
 import { create } from "zustand";
 
+const initialState = {
+  data: null,
+  error: null,
+};
+
 // 0 - municipal level
 // 1 - province level
 export const useDataStore = create((set) => ({
+  initialState,
   data: null,
   selectedLevel: 0,
   setSelectedLevel: (level) => set({ selectedLevel: level }),
@@ -16,7 +22,7 @@ export const useDataStore = create((set) => ({
         },
         body: JSON.stringify({
           level: level,
-          placeId: placeId
+          placeId: placeId,
         }),
       });
 
@@ -28,4 +34,6 @@ export const useDataStore = create((set) => ({
       set({ error: error });
     }
   },
+
+  resetStore: () => set(initialState),
 }));

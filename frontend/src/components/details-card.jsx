@@ -17,6 +17,7 @@ export default function DetailsCard({ className }) {
   ];
 
   const [imageUrl, setImageUrl] = useState(null);
+  const selectedLevel = useDataStore((state) => state.selectedLevel);
 
   useEffect(() => {
     if (placeData?.place_image?.data) {
@@ -33,7 +34,11 @@ export default function DetailsCard({ className }) {
       <Card
         className={`${className} relative pt-0 flex items-center justify-center h-[30vh]`}
       >
-        <p className="text-gray-500 italic">Please select a municipality</p>
+        {selectedLevel === 0 ? (
+          <p className="text-gray-500 italic">Please select a municipality</p>
+        ) : (
+          <p className="text-gray-500 italic">Please select a province</p>
+        )}
       </Card>
     );
   }
