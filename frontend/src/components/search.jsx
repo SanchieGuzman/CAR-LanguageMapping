@@ -39,20 +39,27 @@ function SearchBar() {
 
   // clicking a place in search results
   const handleOnClick = (chosenMunicipality) => {
-    document
-      .querySelectorAll("svg path.selected")
-      .forEach((p) => p.classList.remove("selected"));
     setSelectedLevel(0); // automatic municipal level when searching
     setIsOpen(false); // close search results
     searchRef.current.value = ""; //reset search bar
     setSearchResults([]);
     const id = getIdByMunicipalityName(chosenMunicipality);
     fetchPlaceDataById(id, 0);
+    setTimeout(() => {
+      highlightMunicipality(id);
+    });
+  };
+
+  function highlightMunicipality(id) {
+    //remove the highlight of the current active path
+    document
+      .querySelectorAll("svg path.selected")
+      .forEach((p) => p.classList.remove("selected"));
 
     const svgPath = document.getElementById(id);
 
     svgPath.classList.add("selected");
-  };
+  }
 
   // closes the search results div when it loses focus
   useEffect(() => {
