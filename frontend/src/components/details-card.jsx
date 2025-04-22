@@ -3,6 +3,7 @@ import { Card, CardDescription, CardHeader, CardContent } from "./ui/card";
 import { useDataStore } from "../store/data-store";
 import { Badge } from "./ui/badge";
 import { Table, TableRow, TableCell } from "./ui/table";
+import { MapPin, Map, ArrowRight } from "lucide-react"
 
 export default function DetailsCard({ className }) {
   const placeData = useDataStore((state) => state.data);
@@ -29,18 +30,60 @@ export default function DetailsCard({ className }) {
     }
   }, [placeData]);
 
+  // if (!placeData) {
+  //   return (
+  //     <Card
+  //       className={`${className} relative pt-0 flex items-center justify-center h-[30vh]`}
+  //     >
+  //       {selectedLevel === 0 ? (
+  //         <p className="text-gray-500 italic">Please select a municipality</p>
+  //       ) : (
+  //         <p className="text-gray-500 italic">Please select a province</p>
+  //       )}
+  //     </Card>
+  //   );
+  // }
+
   if (!placeData) {
     return (
       <Card
-        className={`${className} relative pt-0 flex items-center justify-center h-[30vh]`}
+        className={`${className} relative py-10 flex flex-col items-center justify-center h-fit border-dashed border-2 bg-muted/30`}
       >
-        {selectedLevel === 0 ? (
-          <p className="text-gray-500 italic">Please select a municipality</p>
-        ) : (
-          <p className="text-gray-500 italic">Please select a province</p>
-        )}
+        <div className="flex flex-col items-center gap-3 p-6 text-center max-w-md">
+          {selectedLevel === 0 ? (
+            <>
+              <div className="h-20 w-20 rounded-full bg-muted flex items-center justify-center">
+                <MapPin className="h-10 w-10 text-muted-foreground" />
+              </div>
+              <h3 className="text-lg font-medium">No Municipality Selected</h3>
+              <p className="text-muted-foreground">
+                Please select a municipality on the map or use the search bar above to view detailed information.
+              </p>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mt-2">
+                <span>Click on map</span>
+                <ArrowRight className="h-3 w-3" />
+                <span>View municipality data</span>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="h-20 w-20 rounded-full bg-muted flex items-center justify-center">
+                <Map className="h-10 w-10 text-muted-foreground" />
+              </div>
+              <h3 className="text-lg font-medium">No Province Selected</h3>
+              <p className="text-muted-foreground">
+                Please select a province on the map to view aggregated provincial data and statistics.
+              </p>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mt-2">
+                <span>Click on map</span>
+                <ArrowRight className="h-3 w-3" />
+                <span>View province data</span>
+              </div>
+            </>
+          )}
+        </div>
       </Card>
-    );
+    )
   }
 
   return (
