@@ -45,7 +45,7 @@ export default function MapCard({ className }) {
 
   return (
     <Card className={`${className} flex flex-col relative overflow-hidden`}>
-      <CardHeader className="pb-2 flex flex-row items-center justify-between">
+      <CardHeader className="flex flex-row items-center justify-between">
         <div className="flex items-center gap-2">
           {selectedLevel === 0 ? (
             <MapPin className="h-5 w-5 text-muted-foreground" />

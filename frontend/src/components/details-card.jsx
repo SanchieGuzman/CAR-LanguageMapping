@@ -1,48 +1,32 @@
-import React, { useState, useEffect } from "react";
-import { Card, CardDescription, CardHeader, CardContent } from "./ui/card";
-import { useDataStore } from "../store/data-store";
-import { Badge } from "./ui/badge";
-import { Table, TableRow, TableCell } from "./ui/table";
-import { MapPin, Map, ArrowRight } from "lucide-react"
+"use client"
+
+import { useState, useEffect } from "react"
+import { Card, CardDescription, CardHeader, CardContent, CardTitle } from "./ui/card"
+import { useDataStore } from "../store/data-store"
+import { Badge } from "./ui/badge"
+import { Table, TableBody, TableRow, TableCell, TableHeader, TableHead } from "./ui/table"
+import { MapPin, Map, ArrowRight, Info, Languages, BarChart } from "lucide-react"
+import { Separator } from "./ui/separator"
 
 export default function DetailsCard({ className }) {
-  const placeData = useDataStore((state) => state.data);
+  const placeData = useDataStore((state) => state.data)
+  const selectedLevel = useDataStore((state) => state.selectedLevel)
 
-  const colors = [
-    "#FF5050",
-    "#88ff79",
-    "#FFC923",
-    "#80C6FF",
-    "#CEB4FB",
-    "#FBB4EC",
-  ];
+  const colors = ["#FF5050", "#88ff79", "#FFC923", "#80C6FF", "#CEB4FB", "#FBB4EC"]
 
-  const [imageUrl, setImageUrl] = useState(null);
-  const selectedLevel = useDataStore((state) => state.selectedLevel);
+  const [imageUrl, setImageUrl] = useState(null)
 
   useEffect(() => {
     if (placeData?.place_image?.data) {
-      const byteArray = new Uint8Array(placeData.place_image.data);
-      const blob = new Blob([byteArray], { type: "image/*" });
-      const url = URL.createObjectURL(blob);
-      setImageUrl(url);
-      return () => URL.revokeObjectURL(url);
+      const byteArray = new Uint8Array(placeData.place_image.data)
+      const blob = new Blob([byteArray], { type: "image/*" })
+      const url = URL.createObjectURL(blob)
+      setImageUrl(url)
+      return () => URL.revokeObjectURL(url)
+    } else {
+      setImageUrl(null)
     }
-  }, [placeData]);
-
-  // if (!placeData) {
-  //   return (
-  //     <Card
-  //       className={`${className} relative pt-0 flex items-center justify-center h-[30vh]`}
-  //     >
-  //       {selectedLevel === 0 ? (
-  //         <p className="text-gray-500 italic">Please select a municipality</p>
-  //       ) : (
-  //         <p className="text-gray-500 italic">Please select a province</p>
-  //       )}
-  //     </Card>
-  //   );
-  // }
+  }, [placeData])
 
   if (!placeData) {
     return (
@@ -87,66 +71,107 @@ export default function DetailsCard({ className }) {
   }
 
   return (
-    <Card className={`${className}  pt-0 h-full overflow-y-scroll gap-[.5rem]`}>
-      <div className="w-full min-h-[30vh] max-h-[30vh] shadow-lg rounded-t-md">
-        <img
-          src={imageUrl}
-          alt=""
-          className="w-full h-full object-cover object-center rounded-md"
-        />
+    <Card className={`${className} h-full overflow-hidden flex flex-col pt-0 gap-0`}>
+      <div className="relative">
+        {imageUrl && (
+          <div className="w-full h-[30vh] overflow-hidden">
+            <img
+              src={imageUrl || "/placeholder.svg"}
+              alt={`Image of ${placeData.place_name}`}
+              className="w-full h-full object-cover object-center"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 p-4 text-white">
+              <h2 className="text-xl font-bold drop-shadow-md">{placeData.place_name}</h2>
+              <p className="text-sm text-white/90">{selectedLevel === 0 ? "Municipality" : "Province"}</p>
+            </div>
+          </div>
+        )}
       </div>
-      <CardHeader className="text-justify min-w-[4rem]">
-        <CardDescription className="h-auto text-[.9rem]">
-          {placeData.place_description}
-        </CardDescription>
-      </CardHeader>
-      <CardContent>
-        <CardDescription className="text-[0.9rem]">
-          <p className=" h-12">
-            {" "}
-            Five Leading Languages/Dialects Generally Spoken at Home in "
-            {placeData.place_name}"
+
+      <div className="w-full overflow-y-auto">
+        <CardHeader className="pb-2 pt-4">
+          <div className="flex items-center gap-2">
+            <Info className="h-4 w-4 text-muted-foreground" />
+            <CardTitle className="text-base">About</CardTitle>
+          </div>
+          <CardDescription className="text-sm mt-2 leading-6">{placeData.place_description}</CardDescription>
+        </CardHeader>
+
+        <Separator />
+
+        <CardContent className="pt-4">
+          <div className="flex items-center gap-2 mb-3">
+            <Languages className="h-4 w-4 text-muted-foreground" />
+            <h3 className="text-base font-medium">Leading Languages/Dialects</h3>
+          </div>
+
+          <p className="text-sm text-muted-foreground mb-3">
+            Five leading languages/dialects generally spoken at home in {placeData.place_name}:
           </p>
+
           <Table>
-            <tbody>
-              {placeData.languages.map((placeData, index) => (
+            <TableHeader>
+              <TableRow>
+                <TableHead className="w-[100px]">Color</TableHead>
+                <TableHead>Language</TableHead>
+                <TableHead className="text-right">Percentage</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {placeData.languages.map((lang, index) => (
                 <TableRow key={index}>
                   <TableCell>
                     <div
-                      className="w-[1rem] aspect-square"
-                      style={{ background: colors[index] }}
-                    >
-                      {" "}
+                      className="w-4 h-4 rounded-sm border"
+                      style={{ backgroundColor: `${colors[index]}90`, borderColor: `${colors[index]}` }}
+                    ></div>
+                  </TableCell>
+                  <TableCell className="font-medium">{lang.language_name}</TableCell>
+                  <TableCell className="text-right">
+                    <div className="flex items-center justify-end gap-2">
+                      <div className="w-16 h-2 bg-muted rounded-full overflow-hidden">
+                        <div
+                          className="h-full rounded-full"
+                          style={{
+                            width: `${lang.percent}%`,
+                            backgroundColor: colors[index],
+                          }}
+                        ></div>
+                      </div>
+                      <span>{lang.percent}%</span>
                     </div>
                   </TableCell>
-                  <TableCell>{placeData.language_name}</TableCell>
-                  <TableCell>{placeData.percent}%</TableCell>
                 </TableRow>
               ))}
-            </tbody>
+            </TableBody>
           </Table>
-        </CardDescription>
-        <CardDescription className="mt-[2rem] text-[0.9rem] h-auto scroll overflow-hidden">
-          {placeData.other_langauges.length > 0 && (
-            <>
-              <p>Other Languages/Dialects Spoken</p>
-              <div className="flex flex-wrap gap-x-[.5rem] gap-y-0 h-auto">
-                {placeData.other_langauges.map((otherlanguage, index) => (
+          
+          {placeData.other_langauges && placeData.other_langauges.length > 0 && (
+            <div className="mt-6">
+              <div className="flex items-center gap-2 mb-3">
+                <BarChart className="h-4 w-4 text-muted-foreground" />
+                <h3 className="text-base font-medium">Other Languages/Dialects</h3>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {placeData.other_langauges.map((language, index) => (
                   <Badge
                     key={index}
-                    className="mt-[1rem]"
-                    style={{ background: colors[index % colors.length] }}
+                    variant="outline"
+                    className="py-1 px-3 border-2 whitespace-normal"
+                    style={{
+                      borderColor: colors[index % colors.length],
+                      backgroundColor: `${colors[index % colors.length]}20`,
+                    }}
                   >
-                    <div className="w-auto h-[2rem] text-[1rem] justify-center items-center flex">
-                      {otherlanguage}
-                    </div>
+                    {language}
                   </Badge>
                 ))}
               </div>
-            </>
+            </div>
           )}
-        </CardDescription>
-      </CardContent>
+        </CardContent>
+      </div>
     </Card>
-  );
+  )
 }
