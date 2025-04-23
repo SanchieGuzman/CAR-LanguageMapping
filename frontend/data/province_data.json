@@ -2,7 +2,7 @@
   {
     "place_id": 1,
     "place_name": "Abra",
-    "place_image": "placeholder.jpg",
+    "place_image": "/provinces/abra.jpg",
     "place_description": "Abra is a landlocked province in the Cordillera Administrative Region of the Philippines Known for its rugged terrain enclosed by mountains, Abra's economy is primarily agriculture-based, with rice, corn, and root crops as major products, alongside a significant cottage industry in bamboo and rattan crafts. The province is a cultural melting pot, home to the Ilocano and the Indigenous Tingguian people.",
     "information_source": "https://abra.gov.ph/about/",
     "languages": [
@@ -86,7 +86,7 @@
   {
     "place_id": 2,
     "place_name": "Apayao",
-    "place_image": "placeholder.jpg",
+    "place_image": "/provinces/apayao.jpg",
     "place_description": "Apayao province, located in the Cordillera Administrative Region of Luzon, is known as \"Cordillera's Last Nature Frontier\" and is a landlocked province with a diverse landscape, rich biodiversity, and a unique culture, comprising 7 municipalities and 133 barangays. ",
     "information_source": "https://ncca.gov.ph/about-culture-and-arts/culture-profile/glimpses-peoples-of-the-philippines/apayao/",
     "languages": [
@@ -155,7 +155,7 @@
   {
     "place_id": 3,
     "place_name": "Benguet",
-    "place_image": "placeholder.jpg",
+    "place_image": "/provinces/benguet.jpg",
     "place_description": "Benguet province, located in the southern part of the Cordillera Administrative Region (CAR) in Luzon, is known for its mountainous terrain, temperate climate, and is nicknamed the \"Salad Bowl of the Philippines\" due to its vast production of highland vegetables. ",
     "information_source": "https://benguet.gov.ph/about-the-province/",
     "languages": [
@@ -325,7 +325,7 @@
   {
     "place_id": 4,
     "place_name": "Ifugao",
-    "place_image": "placeholder.jpg",
+    "place_image": "/provinces/ifugao.jpg",
     "place_description": "Ifugao province, known as the \"Land of the Eighth World Wonder,\" is famous for its stunning man-made Banaue Rice Terraces, a UNESCO World Heritage site, and is home to the Ifugao people, who are known for their unique culture, including woodcarving and traditional chants. ",
     "information_source": "https://ncca.gov.ph/about-ncca-3/subcommissions/subcommission-on-cultural-communities-and-traditional-arts-sccta/northern-cultural-communities/ifugao-in-a-nutshell/",
     "languages": [
@@ -401,7 +401,7 @@
   {
     "place_id": 5,
     "place_name": "Kalinga",
-    "place_image": "placeholder.jpg",
+    "place_image": "/provinces/kalinga.jpg",
     "place_description": "Kalinga province, located in the central Cordillera Administrative Region, became a separate province in 1992, derived from the Ibanag and Gaddang word \"kalinga\" meaning \"enemy,\" \"fighter,\" or \"headtaker\". ",
     "information_source": "https://kalingaprovince.gov.ph/historical-background/",
     "languages": [
@@ -487,7 +487,7 @@
   {
     "place_id": 6,
     "place_name": "Mountain Province",
-    "place_image": "placeholder.jpg",
+    "place_image": "/provinces/mountainprovince.jpg",
     "place_description": "Mountain Province, located in the Cordillera Administrative Region of Luzon, is known for its mountainous terrain, diverse indigenous cultures, and natural beauty, including rice terraces and caves, and its capital is Bontoc. ",
     "information_source": "http://mountainprovince.gov.ph/the-province/facts-and-figures/",
     "languages": [

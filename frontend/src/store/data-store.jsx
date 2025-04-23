@@ -1,12 +1,10 @@
 import { create } from "zustand";
-import municipality_data from '/public/municipality_data.json';
-import province_data from '/public/province_data.json';
-
+import municipality_data from '/data/municipality_data.json';
+import province_data from '/data/province_data.json';
 
 // 0 - municipal level
 // 1 - province level
 export const useDataStore = create((set) => ({
-  initialState,
   data: null,
   selectedLevel: 0,
   setSelectedLevel: (level) => set({ selectedLevel: level }),
