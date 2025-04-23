@@ -1,6 +1,5 @@
 "use client"
 
-import { useState, useEffect } from "react"
 import { Card, CardDescription, CardHeader, CardContent, CardTitle } from "./ui/card"
 import { useDataStore } from "../store/data-store"
 import { Badge } from "./ui/badge"
@@ -13,8 +12,6 @@ export default function DetailsCard({ className }) {
   const selectedLevel = useDataStore((state) => state.selectedLevel)
 
   const colors = ["#FF5050", "#88ff79", "#FFC923", "#80C6FF", "#CEB4FB", "#FBB4EC"]
-
-  const [imageUrl, setImageUrl] = useState(null)
 
   if (!placeData) {
     return (
