@@ -20,7 +20,7 @@ function SearchBar() {
 
   // search bar onchange
   const debouncedOnChange = debounce((e) => {
-    const searchKey = e.target.value.trim().replaceAll("-", "")
+    const searchKey = e.target.value.trim().replaceAll("-", "").toLowerCase();
 
     if (searchKey.length > 0) {
       setIsOpen(true)
