@@ -6,7 +6,7 @@ import { Search, MapPin } from "lucide-react"
 import { useState, useRef, useEffect } from "react"
 import { useDataStore } from "../store/data-store"
 import debounce from "lodash.debounce"
-const municipalities = Array.from(municipalityIdMapping.keys()) // municipality province names
+const municipalities = Array.from(municipalityIdMapping.keys()) //  municipality province names
 
 function SearchBar() {
   const [searchResults, setSearchResults] = useState([])
