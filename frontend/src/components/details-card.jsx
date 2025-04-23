@@ -16,18 +16,6 @@ export default function DetailsCard({ className }) {
 
   const [imageUrl, setImageUrl] = useState(null)
 
-  useEffect(() => {
-    if (placeData?.place_image?.data) {
-      const byteArray = new Uint8Array(placeData.place_image.data)
-      const blob = new Blob([byteArray], { type: "image/*" })
-      const url = URL.createObjectURL(blob)
-      setImageUrl(url)
-      return () => URL.revokeObjectURL(url)
-    } else {
-      setImageUrl(null)
-    }
-  }, [placeData])
-
   if (!placeData) {
     return (
       <Card
@@ -73,10 +61,10 @@ export default function DetailsCard({ className }) {
   return (
     <Card className={`${className} h-full overflow-hidden flex flex-col pt-0 gap-0`}>
       <div className="relative">
-        {imageUrl && (
+        {placeData.place_image && (
           <div className="w-full h-[30vh] overflow-hidden">
             <img
-              src={imageUrl || "/placeholder.svg"}
+              src={placeData.place_image || "/placeholder.svg"}
               alt={`Image of ${placeData.place_name}`}
               className="w-full h-full object-cover object-center"
             />

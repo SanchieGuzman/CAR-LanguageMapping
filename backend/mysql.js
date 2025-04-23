@@ -34,7 +34,7 @@ class Database {
   }
 
   async getMunicipalityInformation(municipality_id) {
-    const query = `SELECT municipality_name as place_name, municipality_image as place_image, municipality_information as place_information, information_source 
+    const query = `SELECT municipality_id as place_id, municipality_name as place_name, municipality_image as place_image, municipality_information as place_information, information_source 
                     FROM municipalities WHERE municipality_id = ?`;
     const params = [municipality_id];
 
@@ -95,7 +95,7 @@ class Database {
   }
 
   async getProvinceInformation(province_id) {
-    const query = `SELECT province_name as place_name, province_image as place_image, province_information as place_information, information_source 
+    const query = `SELECT province_id as place_id, province_name as place_name, province_image as place_image, province_information as place_information, information_source 
                        FROM provinces WHERE province_id = ?`;
     const params = [province_id];
 

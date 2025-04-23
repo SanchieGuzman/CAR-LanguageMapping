@@ -15,8 +15,9 @@ export function format(databaseResults) {
         }));
 
     const finalJson = {
+        "place_id": databaseResults.place_id,
         "place_name" : databaseResults.place_name,
-        "place_image" : databaseResults.place_image,
+        "place_image" : "placeholder.jpg",
         "place_description" : databaseResults.place_information,
         "information_source" : databaseResults.information_source,
         "languages" : languages,

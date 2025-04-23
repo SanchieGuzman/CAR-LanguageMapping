@@ -3,6 +3,8 @@ import dotenv from "dotenv";
 import Database from "./mysql.js";
 import { format } from "./format.js";
 import cors from "cors";
+import { promises as fs } from 'fs'; // Use promises version for async/await
+
 
 dotenv.config();
 const app = express();
@@ -21,6 +23,15 @@ app.post("/getPlaceData", async (req, res) => {
     result = await db.getProvinceLanguages(place_id);
   }  
   const finalJson = format(result);
+  const logMessage = JSON.stringify(finalJson, null, 2) + ',\n'; // Add a newline character
+
+  try {
+    await fs.appendFile('province_data.json', logMessage); // Use appendFile
+    console.log(', Data appended to municipality_data.json'); // Keep the original console log, but add context
+  } catch (error) {
+    console.error(', Error appending to municipality_data.json:', error); // Important: Handle errors!
+  }
+
   res.json(finalJson);
 });
 

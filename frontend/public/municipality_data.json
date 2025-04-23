@@ -1,0 +1,3318 @@
+[
+  {
+    "place_id": 1,
+    "place_name": "Bangued",
+    "place_image": "placeholder.jpg",
+    "place_description": "Bangued is known for its scenic mountainous landscapes and vibrant cultural festivals that reflect its rich heritage. It serves as the capital of Abra, where history and nature meet in a harmonious blend. Visitors enjoy exploring its historic sites and local traditions in a warm, welcoming environment.",
+    "information_source": "https://abra.gov.ph/municipalities/bangued/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "95.74"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.95"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Adasen",
+        "percent": "1.24"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Binongan",
+        "percent": "0.58"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Mabaka",
+        "percent": "0.50"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Masadiit",
+      "Itneg/Tingguian",
+      "Itneg/Tinguian-Maeng",
+      "Irungdungan",
+      "Itneg/Tinguian-Gubang",
+      "Itneg/Tinguian-Banao",
+      "Maranao",
+      "Itneg",
+      "Itneg/Tinguian-Inlaud",
+      "Pangasinan/Panggalato",
+      "Ibukid",
+      "American/English",
+      "Kapampangan",
+      "Bisaya/Binisaya",
+      "Itneg/Tinguian-Balatok",
+      "Itneg/Tinguian-Muyadan",
+      "Kankanaey",
+      "Tingguian",
+      "Waray",
+      "Hiligaynon/Ilonggo",
+      "Kabalianon",
+      "Ifugao",
+      "Other Foreign Languages",
+      "Jama Mapun",
+      "Maguindanao",
+      "Ibatan",
+      "Imalawa",
+      "Chinese",
+      "Bikol/Bicol"
+    ]
+  },
+  {
+    "place_id": 2,
+    "place_name": "Boliney",
+    "place_image": "placeholder.jpg",
+    "place_description": "Boliney charms visitors with its lush landscapes and deep indigenous roots that create a unique cultural tapestry. The town hosts colorful local celebrations that invite participation and community spirit. Its panoramic views and rural tranquility make it a perfect escape for nature lovers.",
+    "information_source": "https://abra.gov.ph/municipalities/boliney/",
+    "languages": [
+      {
+        "language_name": "Itneg/Tinguian-Masadiit",
+        "percent": "46.77"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Balatok",
+        "percent": "43.30"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Belwang",
+        "percent": "9.24"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.35"
+      },
+      {
+        "language_name": "Kabayukan",
+        "percent": "0.35"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Mabaka",
+      "Itneg/Tinguian-Adasen",
+      "Itneg/Tinguian-Maeng",
+      "Tagalog"
+    ]
+  },
+  {
+    "place_id": 3,
+    "place_name": "Bucay",
+    "place_image": "placeholder.jpg",
+    "place_description": "Bucay boasts rolling hills and a traditional ambiance that offers a genuine taste of rural Abra life. Local craftsmanship and time‑honored practices are proudly showcased during its festive gatherings. The scenic environment and warm hospitality welcome travelers eager to experience authentic local culture.",
+    "information_source": "https://abra.gov.ph/municipalities/bucay/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "94.54"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "3.98"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Muyadan",
+        "percent": "0.72"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.51"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.25"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Masadiit",
+      "Itneg/Tingguian",
+      "Ibatan",
+      "Itneg/Tinguian-Gubang",
+      "Iwak/Iowak/Owak/I-Wak",
+      "Tingguian"
+    ]
+  },
+  {
+    "place_id": 4,
+    "place_name": "Bucloc",
+    "place_image": "placeholder.jpg",
+    "place_description": "Bucloc is a quaint municipality where natural beauty meets centuries‑old traditions. Its vibrant community keeps ancestral customs alive through annual festivals and communal celebrations. Visitors can enjoy peaceful rural landscapes paired with authentic cultural experiences. ",
+    "information_source": "https://abra.gov.ph/municipalities/bucloc/",
+    "languages": [
+      {
+        "language_name": "Itneg/Tinguian-Masadiit",
+        "percent": "93.53"
+      },
+      {
+        "language_name": "Masadiit",
+        "percent": "4.80"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.84"
+      },
+      {
+        "language_name": "Kabayukan",
+        "percent": "0.63"
+      },
+      {
+        "language_name": "Illaud",
+        "percent": "0.21"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Balatok"
+    ]
+  },
+  {
+    "place_id": 5,
+    "place_name": "Daguioman",
+    "place_image": "placeholder.jpg",
+    "place_description": "Daguioman features rugged terrains and rich cultural practices that offer a glimpse into the traditional Abra way of life. The people of Daguioman belong to a cultural tribe called “Tinguians,” a word derived from the Malay term “Ingue,” which means mountain. Hence, to be a Tingguian is to be a man of the mountains. ",
+    "information_source": "https://abra.gov.ph/municipalities/daguioman/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "75.05"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "21.10"
+      },
+      {
+        "language_name": "Itneg",
+        "percent": "2.43"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.22"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.20"
+      }
+    ],
+    "other_langauges": [
+      "Agta-Taboy",
+      "Itneg/Tinguian-Muyadan",
+      "Not Reported"
+    ]
+  },
+  {
+    "place_id": 6,
+    "place_name": "Danglas",
+    "place_image": "placeholder.jpg",
+    "place_description": "Danglas offers spectacular mountain vistas combined with a deep-rooted cultural identity that shines through local festivities. “Dangla” plants, which were excellent as firewood, grew in abundance. It was customary in the place for people to gather around a bonfire in the morning to warm themselves from the cold climate. ",
+    "information_source": "https://abra.gov.ph/municipalities/danglas/",
+    "languages": [
+      {
+        "language_name": "Itneg/Tinguian-Banao",
+        "percent": "96.35"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.97"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Maeng",
+        "percent": "0.97"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Masadiit",
+        "percent": "0.97"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.73"
+      }
+    ],
+    "other_langauges": [
+      "American/English",
+      "Itneg/Tinguian-Adasen"
+    ]
+  },
+  {
+    "place_id": 7,
+    "place_name": "Dolores",
+    "place_image": "placeholder.jpg",
+    "place_description": "Dolores is a 5th Class Municipality lying in the central-western part of the Province of Abra. The town has received numerous recognitions being awarded with the Seal of Good Local Governance for 4 straight years since 2015.",
+    "information_source": "https://doloresonline.gov.ph/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "97.59"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.34"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "0.46"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.35"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Adasen",
+        "percent": "0.25"
+      }
+    ],
+    "other_langauges": [
+      "Illaud",
+      "Bisaya/Binisaya",
+      "Itneg",
+      "Itneg/Tinguian-Binongan",
+      "Itneg/Tinguian-Mabaka",
+      "Itneg/Tinguian-Maeng",
+      "Imalawa",
+      "Itneg/Tinguian-Banao",
+      "Itneg/Tinguian-Masadiit",
+      "Kalanguya-Yattuka",
+      "American/English"
+    ]
+  },
+  {
+    "place_id": 8,
+    "place_name": "La Paz",
+    "place_image": "placeholder.jpg",
+    "place_description": "La Paz is a peaceful town celebrated for its panoramic views and intimate community gatherings that highlight local traditions. The municipality offers charming rural scenery and a laid‑back pace of life. Visitors are drawn to its friendly locals and authentic cultural experiences.",
+    "information_source": "https://abra.gov.ph/municipalities/la-paz/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "98.65"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.97"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.29"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Adasen",
+        "percent": "0.07"
+      },
+      {
+        "language_name": "Imalawa",
+        "percent": "0.02"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Inlaud",
+      "Kankanaey",
+      "Not Reported"
+    ]
+  },
+  {
+    "place_id": 9,
+    "place_name": "Lacub",
+    "place_image": "placeholder.jpg",
+    "place_description": "Lacub is marked by its rural charm and enduring traditions that provide a window into Abra’s cultural heritage. Its inhabitants are predominantly from the three tribes, namely: Mabacas, Adasens, and the Binongans. The Binongans originated from Abulan, San Juan, Abra. The Mabacascame from Lubuagan, Kalinga. The Adasens were from Tineg, Abra, and the western part of Apayao. ",
+    "information_source": "https://abra.gov.ph/municipalities/lacub/",
+    "languages": [
+      {
+        "language_name": "Itneg/Tinguian-Mabaka",
+        "percent": "63.73"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Binongan",
+        "percent": "31.79"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Adasen",
+        "percent": "3.28"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.60"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Muyadan",
+        "percent": "0.60"
+      }
+    ],
+    "other_langauges": [
+      "Irungdungan",
+      "Agutaynen",
+      "Itneg/Tinguian-Banao",
+      "Kamiguin",
+      "Masadiit"
+    ]
+  },
+  {
+    "place_id": 10,
+    "place_name": "Lagangilang",
+    "place_image": "placeholder.jpg",
+    "place_description": "According to legend, Lagangilang derived its name from combining the words ‘ilang-ilang” and “lagam”. Ilang-ilang is a tree whose flowers emit a distinctively sweet scent. Lagam, meaning bravery, is the name of a famous Tinguian leader who once ruled and defended the original Tinguian village of Lagangilang from adversaries.",
+    "information_source": "https://abra.gov.ph/municipalities/lagangilang/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "86.55"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Adasen",
+        "percent": "10.41"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "1.71"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.00"
+      },
+      {
+        "language_name": "Itneg",
+        "percent": "0.32"
+      }
+    ],
+    "other_langauges": [
+      "Irungdungan",
+      "Itneg/Tinguian-Binongan",
+      "Bisaya/Binisaya",
+      "Itneg/Tingguian",
+      "Itneg/Tinguian-Banao",
+      "Itneg/Tinguian-Mabaka",
+      "Tingguian",
+      "American/English",
+      "Iwak/Iowak/Owak/I-Wak",
+      "Kapampangan"
+    ]
+  },
+  {
+    "place_id": 11,
+    "place_name": "Lagayan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Lagayan was coined from the word “laga” which means to weave. According to old folks, there was once a place where weavers used to weave container baskets such as “dapilag”, a small hamper used as container for vegetables, “alat”, a container for fish catch, “barekbek”, a fish trap, and other utility baskets which were woven out of bamboo or the native “puser”.",
+    "information_source": "https://abra.gov.ph/municipalities/lagayan/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "49.86"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Adasen",
+        "percent": "40.54"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "6.65"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "2.77"
+      },
+      {
+        "language_name": "Itneg",
+        "percent": "0.18"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Binongan",
+      "Iwak/Iowak/Owak/I-Wak"
+    ]
+  },
+  {
+    "place_id": 12,
+    "place_name": "Langiden",
+    "place_image": "placeholder.jpg",
+    "place_description": "The word Langiden originated from an Ilocano term “langi” meaning the outgrowth of a plant as in the development of a bamboo shoot. Langiden was considered a shoot which grew from an old small village to a new town. To add beauty and color, the word “den” was added to the word “langi” forming the word langiden.",
+    "information_source": "https://abra.gov.ph/municipalities/langiden/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "52.06"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "46.82"
+      },
+      {
+        "language_name": "Iwak/Iowak/Owak/I-Wak",
+        "percent": "0.50"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.37"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.25"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Gubang"
+    ]
+  },
+  {
+    "place_id": 13,
+    "place_name": "Licuan-Baay (Licuan)",
+    "place_image": "placeholder.jpg",
+    "place_description": "Licuan-Baay blends modern progress with timeless Abra traditions in a dynamic community setting. The word Baay came from the phrase “awan ti paay”, which means useless in Ilocano. The phrase came about when a long time ago, a goddess of beauty named Ayo visited the place now known as Baay.",
+    "information_source": "https://abra.gov.ph/municipalities/baay-licuan/",
+    "languages": [
+      {
+        "language_name": "Itneg/Tinguian-Binongan",
+        "percent": "98.59"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.61"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Muyadan",
+        "percent": "0.50"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.20"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Banao",
+        "percent": "0.10"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Gubang",
+      "Itneg/Tinguian-Mabaka"
+    ]
+  },
+  {
+    "place_id": 14,
+    "place_name": "Luba",
+    "place_image": "placeholder.jpg",
+    "place_description": "Luba was first called Barit-Amtuagan. The name was changed to Barit-Lulluno for another district, Tiempo, claimed Amtuagan was part of their land. From the first two letters of the words Barit and Lul-luno, the name Balu was adopted. When the place became a regular municipality, the name was changed to its present name, Luba.",
+    "information_source": "https://abra.gov.ph/municipalities/luba/",
+    "languages": [
+      {
+        "language_name": "Itneg/Tinguian-Maeng",
+        "percent": "88.02"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "11.16"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.48"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.21"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "0.14"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Masadiit",
+      "Cebuano",
+      "Imalawa",
+      "Itneg",
+      "Itneg/Tingguian",
+      "Itneg/Tinguian-Binongan",
+      "Itneg/Tinguian-Mabaka",
+      "Kabalianon",
+      "Porohanon"
+    ]
+  },
+  {
+    "place_id": 15,
+    "place_name": "Malibcong",
+    "place_image": "placeholder.jpg",
+    "place_description": "Malibcong is set against a backdrop of rolling hills and traditional Abra lifestyles that date back generations. Its cultural festivities and community warmth highlight the best of rural living. The scenic environment and authentic traditions make it a delightful destination for visitors.",
+    "information_source": "https://abra.gov.ph/municipalities/malibcong/",
+    "languages": [
+      {
+        "language_name": "Itneg/Tinguian-Banao",
+        "percent": "42.79"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Mabaka",
+        "percent": "33.17"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Gubang",
+        "percent": "23.68"
+      },
+      {
+        "language_name": "Obu-Manuvu/Ubo-Manobo",
+        "percent": "0.24"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.12"
+      }
+    ],
+    "other_langauges": [
+      "Itneg",
+      "Ivatan"
+    ]
+  },
+  {
+    "place_id": 16,
+    "place_name": "Manabo",
+    "place_image": "placeholder.jpg",
+    "place_description": "The name “Manabo” came from the word “Anabo”, a thorny herb used for making twines of rope, growing luxuriantly in the fields between San Jose Sur and Poblacion. One time during the Spanish regime, a group of Spaniards passed by the place and asked the name of the thorny herb. The people answered “Anabo”. From that time on, the Spaniards called the place Manabo.",
+    "information_source": "https://abra.gov.ph/municipalities/manabo/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "54.58"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Muyadan",
+        "percent": "34.61"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Maeng",
+        "percent": "6.31"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Masadiit",
+        "percent": "2.36"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "2.14"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Balatok",
+      "Itneg/Tinguian-Belwang",
+      "Itneg/Tingguian",
+      "Irungdungan",
+      "Itneg/Tinguian-Banao",
+      "Itneg/Tinguian-Binongan",
+      "Itneg",
+      "Itneg/Tinguian-Inlaud",
+      "Kabihug",
+      "Bisaya/Binisaya",
+      "Itawis",
+      "Itneg/Tinguian-Adasen",
+      "Itneg/Tinguian-Mabaka",
+      "Bago",
+      "Itneg/Tinguian-Gubang",
+      "Tingguian",
+      "Korean",
+      "Spanish"
+    ]
+  },
+  {
+    "place_id": 17,
+    "place_name": "Peñarrubia",
+    "place_image": "placeholder.jpg",
+    "place_description": "Peñarrubia is rich in history and indigenous culture, reflected in its quaint streets and lively celebrations. The town’s scenic natural surroundings enhance its traditional allure. It offers travelers a charming mix of heritage sites and pastoral beauty.",
+    "information_source": "https://abra.gov.ph/municipalities/penarrubia/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "86.07"
+      },
+      {
+        "language_name": "Illaud",
+        "percent": "8.12"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "2.57"
+      },
+      {
+        "language_name": "Itneg",
+        "percent": "1.71"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.53"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tingguian",
+      "Itneg/Tinguian-Binongan",
+      "Itneg/Tinguian-Adasen",
+      "Irungdungan",
+      "Masadiit",
+      "Itneg/Tinguian-Maeng",
+      "Itneg/Tinguian-Masadiit"
+    ]
+  },
+  {
+    "place_id": 18,
+    "place_name": "Pidigan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Pidigan features historical landmarks set amidst lush, rural landscapes that tell the story of Abra’s past.The origin of the name of “Pidigan”is not well known. Some old people of the municipality say at first, the site of the Poblacion was then called “Bantay Lugnac”. Later, the places’ name became “Pidpideg” which became Pidigan. ",
+    "information_source": "https://abra.gov.ph/municipalities/pidigan/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "99.00"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.47"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.43"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Masadiit",
+        "percent": "0.07"
+      },
+      {
+        "language_name": "Bikol/Bicol",
+        "percent": "0.03"
+      }
+    ],
+    "other_langauges": [
+      "Imalawa",
+      "Itneg/Tinguian-Inlaud",
+      "Masadiit"
+    ]
+  },
+  {
+    "place_id": 19,
+    "place_name": "Pilar",
+    "place_image": "placeholder.jpg",
+    "place_description": "Pilar is celebrated for its vibrant cultural life. Unlike other municipalities there are no legends to speak of about the origin of the name Pilar. The municipality’s name however, is derived from its Patron Saint, Nuestra Señora Del Pilar.",
+    "information_source": "https://abra.gov.ph/municipalities/pilar/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "96.25"
+      },
+      {
+        "language_name": "Itneg",
+        "percent": "2.73"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.45"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.29"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Binongan",
+        "percent": "0.29"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Maeng",
+      "Ibatan",
+      "Itneg/Tingguian",
+      "Itneg/Tinguian-Masadiit"
+    ]
+  },
+  {
+    "place_id": 20,
+    "place_name": "Sallapadan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Sal-lapadan was the first Tinguian settlement organized under the American regime in the highlands of Abra. The municipality got its name from the barrio where the seat of government originally was. The original inhabitants named their settlement “Sahipa-chan,” the name of a wild bush that was predominant at the time in the area.\r\n",
+    "information_source": "https://abra.gov.ph/municipalities/sallapadan/",
+    "languages": [
+      {
+        "language_name": "Itneg/Tinguian-Masadiit",
+        "percent": "75.46"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "23.24"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.89"
+      },
+      {
+        "language_name": "Kabayukan",
+        "percent": "0.27"
+      },
+      {
+        "language_name": "Kailawan/Kaylawan",
+        "percent": "0.14"
+      }
+    ],
+    "other_langauges": [
+      "Mandaya"
+    ]
+  },
+  {
+    "place_id": 21,
+    "place_name": "San Isidro",
+    "place_image": "placeholder.jpg",
+    "place_description": "San Isidro exudes quaint charm with its scenic rural views and deeply rooted cultural practices. The airplane symbolizes the airplane of pilot Isidro Paredes, from whom the municipality was named. The Man and Carabao, represent the town’s hardworking people. The Tobacco and Rice Plants stands for the major crops of the municipality.",
+    "information_source": "https://abra.gov.ph/municipalities/san-isidro/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "99.41"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.34"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.17"
+      },
+      {
+        "language_name": "Ibatan",
+        "percent": "0.08"
+      }
+    ],
+    "other_langauges": []
+  },
+  {
+    "place_id": 22,
+    "place_name": "San Juan",
+    "place_image": "placeholder.jpg",
+    "place_description": "San Juan bursts with life through its vibrant local festivities and scenic, mountainous backdrop. The natives were believed to have come from Indonesia. Before the coming of Spaniards, the natives were believed to have traded with the Indo-Chinese. ",
+    "information_source": "https://abra.gov.ph/municipalities/san-juan/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "97.58"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.11"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "0.91"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Adasen",
+        "percent": "0.24"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Mabaka",
+        "percent": "0.16"
+      }
+    ],
+    "other_langauges": [
+      "Illaud",
+      "Irungdungan",
+      "Itneg",
+      "Itneg/Tinguian-Gubang",
+      "American/English"
+    ]
+  },
+  {
+    "place_id": 23,
+    "place_name": "San Quintin",
+    "place_image": "placeholder.jpg",
+    "place_description": "San Quintin was known to the outside civilization for the first time in 1926 through the mission report of Fr. Juan Pareja who organized several missions in Abra. Its natural scenery provides an inviting setting where history and nature coexist beautifully. ",
+    "information_source": "https://abra.gov.ph/municipalities/san-quintin/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "87.96"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "10.93"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.97"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Mabaka",
+        "percent": "0.07"
+      },
+      {
+        "language_name": "Ivatan",
+        "percent": "0.07"
+      }
+    ],
+    "other_langauges": [
+      "Sama/Samal"
+    ]
+  },
+  {
+    "place_id": 24,
+    "place_name": "Tayum",
+    "place_image": "placeholder.jpg",
+    "place_description": "Tayum got its name after the indigo plant which was commonly known to the Ilocanos as Tayum-Tayum. There was a time when indigo flourished in Tayum, then a source of wealth to the Ilocanos. Its scenic vistas and historic charm make it a delightful destination for culture and nature enthusiasts.",
+    "information_source": "https://abra.gov.ph/municipalities/tayum/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "98.37"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.12"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.32"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Mabaka",
+        "percent": "0.11"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Adasen",
+        "percent": "0.09"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Binongan",
+      "Itneg/Tinguian-Inlaud",
+      "Itneg/Tinguian-Gubang",
+      "Itneg/Tinguian-Muyadan",
+      "American/English",
+      "Ifugao",
+      "Hiligaynon/Ilonggo",
+      "Itneg/Tinguian-Balatok",
+      "Itneg/Tinguian-Masadiit",
+      "Pangasinan/Panggalato"
+    ]
+  },
+  {
+    "place_id": 25,
+    "place_name": "Tineg",
+    "place_image": "placeholder.jpg",
+    "place_description": "Tineg is a gateway to rugged natural beauty and traditional Abra heritage, showcased in its lively community events. The municipality features striking mountain landscapes and time‑honored customs. Visitors appreciate its blend of adventure and cultural authenticity in every experience.",
+    "information_source": "https://abra.gov.ph/municipalities/tineg/",
+    "languages": [
+      {
+        "language_name": "Itneg/Tinguian-Adasen",
+        "percent": "94.72"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Mabaka",
+        "percent": "4.36"
+      },
+      {
+        "language_name": "Isnag",
+        "percent": "0.34"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "0.34"
+      },
+      {
+        "language_name": "Jama Mapun",
+        "percent": "0.23"
+      }
+    ],
+    "other_langauges": [
+      "Ilocano",
+      "Itawis",
+      "Kapampangan",
+      "Tagalog"
+    ]
+  },
+  {
+    "place_id": 26,
+    "place_name": "Tubo",
+    "place_image": "placeholder.jpg",
+    "place_description": "Tubo originated from a single tribe known as the Maeng Tribe. The Maeng people came from a brother and sister couple named May-eng and Mayang who survived a great universal flood that destroyed all communities, fields and most living creatures.",
+    "information_source": "https://abra.gov.ph/municipalities/tubo/",
+    "languages": [
+      {
+        "language_name": "Itneg/Tinguian-Maeng",
+        "percent": "92.76"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Belwang",
+        "percent": "4.11"
+      },
+      {
+        "language_name": "Itneg/Tingguian",
+        "percent": "2.35"
+      },
+      {
+        "language_name": "Kabalianon",
+        "percent": "0.49"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.29"
+      }
+    ],
+    "other_langauges": [
+      "Itneg/Tinguian-Masadiit",
+      "Irungdungan",
+      "Kankanaey",
+      "Malaynon",
+      "Tagalog"
+    ]
+  },
+  {
+    "place_id": 27,
+    "place_name": "Villaviciosa",
+    "place_image": "placeholder.jpg",
+    "place_description": "Villaviciosa is renowned for its captivating natural scenery and rich cultural legacy in the heart of Abra. The municipality is politically subdivided into 8 barangays, namely: Ap-apaya, Bollilising, Callao, Lap-lapog, Lumaba, Poblacion, Tamac and Tuquib.",
+    "information_source": "https://abra.gov.ph/municipalities/villaviciosa/",
+    "languages": [
+      {
+        "language_name": "Itneg/Tinguian-Maeng",
+        "percent": "47.32"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "34.39"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Inlaud",
+        "percent": "17.05"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.96"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Mabaka",
+        "percent": "0.29"
+      }
+    ],
+    "other_langauges": [
+      "Itneg",
+      "Irungdungan",
+      "Kabalianon"
+    ]
+  },
+  {
+    "place_id": 28,
+    "place_name": "Calanasan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Calanasan is a municipality in Apayao province, Philippines, known for being the source of the Apayao River, the only navigable river in the province, and for being the largest municipality in Apayao. ",
+    "information_source": "https://psa.gov.ph/classification/psgc/barangays/1408101000",
+    "languages": [
+      {
+        "language_name": "Isnag",
+        "percent": "65.77"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "32.38"
+      },
+      {
+        "language_name": "Agta-Agay",
+        "percent": "1.04"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.65"
+      },
+      {
+        "language_name": "Kalinga",
+        "percent": "0.15"
+      }
+    ],
+    "other_langauges": [
+      "American/English",
+      "Agta",
+      "Ibanag",
+      "Illaud",
+      "Irungdungan",
+      "Kankanaey"
+    ]
+  },
+  {
+    "place_id": 29,
+    "place_name": "Conner",
+    "place_image": "placeholder.jpg",
+    "place_description": "Conner, Apayao, is a municipality in the Philippines, named after American engineer Norman Conner, who oversaw road construction in the province, effectively ending its isolation. ",
+    "information_source": "https://www.wikiwand.com/en/articles/Conner,_Apayao",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "47.63"
+      },
+      {
+        "language_name": "Isnag",
+        "percent": "19.37"
+      },
+      {
+        "language_name": "Malaueg",
+        "percent": "18.88"
+      },
+      {
+        "language_name": "Kalinga",
+        "percent": "11.23"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "2.89"
+      }
+    ],
+    "other_langauges": [
+      "Itawis",
+      "Tagalog",
+      "Itneg/Tinguian-Mabaka",
+      "Tingguian",
+      "Itneg",
+      "Itneg/Tingguian",
+      "Ibaloi/Ibaloy",
+      "Agta-Agay",
+      "Applai",
+      "Kankanaey-Hak’Ki",
+      "Ibanag",
+      "Irungdungan",
+      "Bago",
+      "Ibatan",
+      "Isneg",
+      "Isneg/Isnag",
+      "Maguindanao",
+      "Masadiit",
+      "Tigwahanon"
+    ]
+  },
+  {
+    "place_id": 30,
+    "place_name": "Flora",
+    "place_image": "placeholder.jpg",
+    "place_description": "Flora is a municipality in the province of Apayao, Philippines, created on June 22, 1963, from several barrios and sitios of Pudtol. The dominant religion in Flora is Roman Catholic, but other Christian denominations are also present. \r\n",
+    "information_source": "https://www.philatlas.com/luzon/car/apayao/flora.html",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "91.39"
+      },
+      {
+        "language_name": "Isnag",
+        "percent": "4.71"
+      },
+      {
+        "language_name": "Agta",
+        "percent": "1.77"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.19"
+      },
+      {
+        "language_name": "Kalinga",
+        "percent": "0.93"
+      }
+    ],
+    "other_langauges": [
+      "Itneg",
+      "Agta-Agay",
+      "Itneg/Tingguian",
+      "Kankanaey",
+      "Aeta",
+      "Bago",
+      "Ibaloi/Ibaloy",
+      "Ibanag",
+      "Ibatan",
+      "Irungdungan",
+      "Itawis",
+      "Kapampangan"
+    ]
+  },
+  {
+    "place_id": 31,
+    "place_name": "Kabugao",
+    "place_image": "placeholder.jpg",
+    "place_description": "Kabugao is a landlocked municipality situated in the western part of Apayao province, Philippines, serving as the provincial capital. It is a significant cultural and administrative center for the province, home to a substantial population of Isnag people and hosting important government offices. Kabugao's economy relies on agriculture, particularly rice and corn production, as well as government services and trade.",
+    "information_source": "https://www.rappler.com/philippines/luzon/l85248047-apayao-kabugao/",
+    "languages": [
+      {
+        "language_name": "Isnag",
+        "percent": "93.91"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "3.63"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "2.14"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.26"
+      },
+      {
+        "language_name": "Abelling/Aberling",
+        "percent": "0.06"
+      }
+    ],
+    "other_langauges": [
+      "Itawis",
+      "Bago",
+      "Irungdungan",
+      "Itneg",
+      "American/English"
+    ]
+  },
+  {
+    "place_id": 32,
+    "place_name": "Luna",
+    "place_image": "placeholder.jpg",
+    "place_description": "Luna, Apayao, is a municipality in the province of Apayao, Philippines, serving as the de facto capital where the provincial capitol and related offices are located, though Kabugao remains the de jure capital. It is known for its fertile soil, diverse culture, and natural attractions like Bayugao Falls and Lussok Cave. ",
+    "information_source": "https://lunaapayao.gov.ph/brief-history/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "89.35"
+      },
+      {
+        "language_name": "Isnag",
+        "percent": "6.82"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.58"
+      },
+      {
+        "language_name": "Agta",
+        "percent": "1.28"
+      },
+      {
+        "language_name": "Aeta",
+        "percent": "0.96"
+      }
+    ],
+    "other_langauges": [
+      "Agta-Agay",
+      "Kankanaey",
+      "Tingguian",
+      "Itneg",
+      "Bago",
+      "Ifugao",
+      "Irungdungan",
+      "Itneg/Tingguian",
+      "Applai",
+      "Bisaya/Binisaya",
+      "Hiligaynon/Ilonggo",
+      "Itawis",
+      "American/English",
+      "Other Foreign Languages"
+    ]
+  },
+  {
+    "place_id": 33,
+    "place_name": "Pudtol",
+    "place_image": "placeholder.jpg",
+    "place_description": "Pudtol is a landlocked municipality in the northern part of Apayao province, Philippines, known for being the largest municipality in the province in terms of land area and for its significant population of Isnag people, the dominant indigenous group in Apayao. Pudtol's economy is primarily based on agriculture, including rice, corn, and cash crops, as well as forestry and some small-scale mining activities.",
+    "information_source": "http://lgupudtol.ph/about-us/brief-history-of-pudtol/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "60.88"
+      },
+      {
+        "language_name": "Isnag",
+        "percent": "36.01"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.21"
+      },
+      {
+        "language_name": "Itneg",
+        "percent": "1.15"
+      },
+      {
+        "language_name": "Agta",
+        "percent": "0.76"
+      }
+    ],
+    "other_langauges": [
+      "Atta",
+      "Agta-Agay",
+      "Irungdungan",
+      "Bago",
+      "American/English",
+      "Kankanaey",
+      "Aeta",
+      "Itawis",
+      "Agta-Isigiran",
+      "Gaddang",
+      "Ibanag",
+      "Isinai",
+      "Kalanguya-Yattuka",
+      "Kalinga",
+      "Malaueg",
+      "Tingguian"
+    ]
+  },
+  {
+    "place_id": 34,
+    "place_name": "Santa Marcela",
+    "place_image": "placeholder.jpg",
+    "place_description": "Santa Marcela, officially the Municipality of Santa Marcela (Ilocano: Ili ti Santa Marcela; Tagalog: Bayan ng Santa Marcela), is a municipality in the province of Apayao, Philippines. According to the 2020 census, it has a population of 13,317 people.",
+    "information_source": "https://www.wikiwand.com/en/articles/Santa_Marcela,_Apayao",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "97.39"
+      },
+      {
+        "language_name": "Agta-Agay",
+        "percent": "1.10"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.07"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.30"
+      },
+      {
+        "language_name": "Agta",
+        "percent": "0.15"
+      }
+    ],
+    "other_langauges": [
+      "Ibanag",
+      "Ibukid",
+      "Itawis",
+      "American/English",
+      "Aeta",
+      "Agta-Isarog/Inagta-Isarog",
+      "Bago",
+      "Bisaya/Binisaya",
+      "Ibatan",
+      "Ifugao",
+      "Imalawa",
+      "Isnag",
+      "Itneg",
+      "Kalanguya-Yattuka",
+      "Palawan-O-Tao’T-Bato"
+    ]
+  },
+  {
+    "place_id": 35,
+    "place_name": "Atok",
+    "place_image": "placeholder.jpg",
+    "place_description": "Located in the rugged terrains of the Cordillera Administrative Region, Atok, Benguet, is a place where nature’s beauty and human ingenuity converge. Among its many attractions, the Natumpukan Half Tunnel stands as a testament to resilience and creativity in the face of natural calamities. It is also known as Halsema’s Half Tunnel Portion as it is located in Halsema Highway.",
+    "information_source": "https://www.phtourguide.com/exploring-the-wonders-of-atok-benguet-a-journey-to-natumpukan-half-tunnel-and-beyond/",
+    "languages": [
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "49.20"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "33.03"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "15.54"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.46"
+      },
+      {
+        "language_name": "Bisaya/Binisaya",
+        "percent": "0.77"
+      }
+    ],
+    "other_langauges": [
+      "Ifugao",
+      "Ayangan",
+      "Kalanguya",
+      "Balangao",
+      "Cebuano",
+      "Illaud",
+      "Muyadan",
+      "Tuwali",
+      "Waray",
+      "Ayangan-Henanga",
+      "Dumagat-Remontado",
+      "Malaynon",
+      "Masadiit",
+      "Pangasinan/Panggalato"
+    ]
+  },
+  {
+    "place_id": 36,
+    "place_name": "Baguio",
+    "place_image": "public/kiangan.jpg",
+    "place_description": "Baguio is the iconic Summer Capital of the Philippines, celebrated for its cool climate and bustling arts scene. The city boasts beautiful parks, vibrant markets, and rich cultural landmarks that reflect its storied past. Its scenic mountain views and festive spirit attract visitors from across the nation. ",
+    "information_source": "https://new.baguio.gov.ph/about-baguio/",
+    "languages": [
+      {
+        "language_name": "Tagalog",
+        "percent": "46.50"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "46.03"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "4.49"
+      },
+      {
+        "language_name": "American/English",
+        "percent": "1.97"
+      },
+      {
+        "language_name": "Pangasinan/Panggalato",
+        "percent": "1.01"
+      }
+    ],
+    "other_langauges": [
+      "Ibaloi/Ibaloy",
+      "Ifugao",
+      "Bontok",
+      "Maranao",
+      "Kalinga",
+      "Tuwali",
+      "Applai",
+      "Bisaya/Binisaya",
+      "Other Foreign Languages",
+      "Kapampangan",
+      "Balangao",
+      "Korean",
+      "Irungdungan",
+      "Bikol/Bicol",
+      "Hiligaynon/Ilonggo",
+      "Chinese",
+      "Waray",
+      "Kalanguya",
+      "Itneg",
+      "Sinadanga",
+      "Kankanaey-Hak’Ki",
+      "Cebuano",
+      "Imalawa",
+      "Ayangan",
+      "Applai-Kachakran/Kadaclan",
+      "Ibanag",
+      "Tagakaulo",
+      "Other Local Dialects",
+      "Tingguian",
+      "Bago",
+      "Baliwon",
+      "Tagabulos",
+      "Japanese",
+      "Masadiit",
+      "Batangan",
+      "Ibatan",
+      "Inabaknon",
+      "Palawan-O-Tao’T-Bato",
+      "T’Duray/Teduray",
+      "Tagabawa",
+      "Tagbanua–Calamian",
+      "Davao-Chavacano",
+      "Ibukid",
+      "Itneg/Tingguian",
+      "Surigaonon",
+      "Spanish",
+      "Bolinaw",
+      "Caviteño-Chavacano",
+      "Illaud",
+      "Tausug/Bahasa Sug",
+      "Agta-Isarog/Inagta-Isarog",
+      "Bontok-Majukayong",
+      "Isneg",
+      "Itneg/Tinguian-Masadiit",
+      "Karao",
+      "Tagbanua-Tandulanen",
+      "French",
+      "Aeta/Ayta-Abelling/Abellen",
+      "Alta-Kabulowan",
+      "Ayangan-Henanga",
+      "Badjao",
+      "Isnag",
+      "Itneg/Tinguian-Banao",
+      "Itneg/Tinguian-Maeng",
+      "Karay-A/Kinaray-A",
+      "Masbateño/Masbatenon",
+      "Molbog",
+      "Tagbanua",
+      "Zamboagueño-Chavacano",
+      "British",
+      "Aeta/Ayta-Sambal/Zambal",
+      "Agta-Tabangnon",
+      "Agta-Taboy",
+      "Arta",
+      "Ayta Kadi",
+      "Balangao-Lias",
+      "Banwaon",
+      "Batak",
+      "Boholano",
+      "Bukidnon/Binukid",
+      "Calinga",
+      "Cotabateño-Chavacano",
+      "Cuyonon/Cuyonen",
+      "Davaweño",
+      "Gaddang",
+      "Hamtikanon",
+      "Higaonon/Higa-Onon",
+      "Higaonon-Tagoloanon",
+      "Isinai",
+      "Isneg/Isnag",
+      "Itawis",
+      "Itneg/Tinguian-Binongan",
+      "Kalanguya-Ikalahan",
+      "Kamayo",
+      "Magkunana",
+      "Maguindanao",
+      "Malaueg",
+      "Manobo-Matigsalug",
+      "Mansaka",
+      "Pan-Ayanon",
+      "Sangir/Sangil",
+      "Subanen/Subanon/Subanun",
+      "Yakan",
+      "German",
+      "Italian",
+      "Not Reported"
+    ]
+  },
+  {
+    "place_id": 37,
+    "place_name": "Bakun",
+    "place_image": "placeholder.jpg",
+    "place_description": "Bakun, being the 4th biggest town of Benguet is a rugged, mountainous region located at the \r\nnorth-eastern part of the Province of Benguet. She is \r\nbounded on the south by the municipality of Buguias, on the \r\nnortheast by the municipality of Mankayan and on the west \r\nby the province of Ilocos Sur.",
+    "information_source": "https://benguet.gov.ph/wp-content/uploads/2022/05/bakun.pdf",
+    "languages": [
+      {
+        "language_name": "Kankanaey",
+        "percent": "97.84"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "1.57"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.29"
+      },
+      {
+        "language_name": "Itawis",
+        "percent": "0.15"
+      },
+      {
+        "language_name": "Masadiit",
+        "percent": "0.15"
+      }
+    ],
+    "other_langauges": [
+      "Ayangan",
+      "Isneg",
+      "Other Local Dialects",
+      "American/English",
+      "Kalanguya",
+      "Kamayo",
+      "Mangyan-Alangan",
+      "Batangan",
+      "Bisaya/Binisaya",
+      "Ifugao",
+      "Hiligaynon/Ilonggo",
+      "Langilan"
+    ]
+  },
+  {
+    "place_id": 38,
+    "place_name": "Bokod",
+    "place_image": "placeholder.jpg",
+    "place_description": "Bokod is a charming municipality located in the province of Benguet, Philippines.In Bokod, visitors can explore the iconic Lake Tabeo, a serene lake nestled amidst the mountains, perfect for swimming, boating, and picnicking. The municipality is also home to the majestic Mount Pulag, the highest peak in Luzon, offering adventurous hikers the opportunity to conquer its summit and witness spectacular sunrise views.",
+    "information_source": "https://www.citities.com/City/PH/Bokod",
+    "languages": [
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "71.80"
+      },
+      {
+        "language_name": "Kalanguya",
+        "percent": "13.20"
+      },
+      {
+        "language_name": "Karao",
+        "percent": "11.41"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "2.71"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.88"
+      }
+    ],
+    "other_langauges": [
+      "Kankanaey",
+      "Kalanguya-Ikalahan",
+      "Aromanen-Manobo/Eromanen-Manobo Mulitaan",
+      "Ayta Kadi",
+      "Irungdungan",
+      "Other Local Dialects",
+      "American/English"
+    ]
+  },
+  {
+    "place_id": 39,
+    "place_name": "Buguias",
+    "place_image": "placeholder.jpg",
+    "place_description": "Buguias is endowed with mystic natural beauty of white, \r\nsparkling and beautiful waterfalls, cascading rivers, fresh and \r\nhot springs, or rolling hills, and wide and fertile valleys. The \r\ntown is always verdant the whole year round with various \r\nkinds of vegetables because of its very favorable climate.",
+    "information_source": "https://benguet.gov.ph/wp-content/uploads/2022/05/buguias.pdf",
+    "languages": [
+      {
+        "language_name": "Kankanaey",
+        "percent": "85.78"
+      },
+      {
+        "language_name": "Kalanguya",
+        "percent": "6.81"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "4.57"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "2.34"
+      },
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "0.50"
+      }
+    ],
+    "other_langauges": [
+      "Ayangan",
+      "Masadiit",
+      "Bisaya/Binisaya",
+      "Tuwali",
+      "Balangao",
+      "Ifugao",
+      "Pangasinan/Panggalato",
+      "American/English",
+      "Irungdungan",
+      "Isneg",
+      "Kalinga",
+      "Kamayo",
+      "Bikol/Bicol",
+      "Hiligaynon/Ilonggo",
+      "Maranao",
+      "Other Foreign Languages",
+      "Itawis",
+      "Itneg",
+      "Kalanguya-Ikalahan",
+      "Karay-A/Kinaray-A",
+      "Kapampangan",
+      "Karao",
+      "Alta-Kabulowan",
+      "Baliwon",
+      "Bontok",
+      "Isnag",
+      "Sama Bangingi",
+      "Kaluyanen",
+      "Tingguian",
+      "Itneg/Tingguian",
+      "Itneg/Tinguian-Adasen",
+      "Kabihug"
+    ]
+  },
+  {
+    "place_id": 40,
+    "place_name": "Itogon",
+    "place_image": "placeholder.jpg",
+    "place_description": "Itogon, a municipality in Benguet province, is known as a \"gold haven\" and the site of the first large-scale mining operations in the Philippines, with a history rooted in gold mining and a diverse landscape featuring mountains and valleys. ",
+    "information_source": "https://itogon.gov.ph/2014/07/brief-profile-of-the-municipality-of-itogon/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "46.71"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "23.35"
+      },
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "21.24"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "7.13"
+      },
+      {
+        "language_name": "Kalinga",
+        "percent": "1.57"
+      }
+    ],
+    "other_langauges": [
+      "Ifugao",
+      "Kalanguya",
+      "Iwak/Iowak/Owak/I-Wak",
+      "American/English",
+      "Tuwali",
+      "Applai-Kachakran/Kadaclan",
+      "Bontok",
+      "Bisaya/Binisaya",
+      "Pangasinan/Panggalato",
+      "Irungdungan",
+      "Ayangan",
+      "Illaud",
+      "Masadiit",
+      "Kamayo",
+      "Itneg",
+      "Korean",
+      "Kapampangan",
+      "Balangao",
+      "Hiligaynon/Ilonggo",
+      "Imalawa",
+      "Other Local Dialects",
+      "Agta-Isarog/Inagta-Isarog",
+      "Isneg",
+      "Kailawan/Kaylawan",
+      "Karay-A/Kinaray-A",
+      "Langilan",
+      "Ibanag",
+      "Cebuano",
+      "Bugkalot/Ilongot",
+      "Tausug/Bahasa Sug",
+      "Itneg/Tinguian-Balatok",
+      "Waray",
+      "Zamboagueño-Chavacano",
+      "Itawis",
+      "British",
+      "Chinese"
+    ]
+  },
+  {
+    "place_id": 41,
+    "place_name": "Kabayan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Kabayan is the home of the aromatic Arabian coffee, red “kintoman” rice, and century-old mummies. Within its boundaries towers Mt. Pulag, the Philippines' second highest mountain. Kabayan's main source of income are rice, coffee, vegetables and lumber products.",
+    "information_source": "https://benguet.gov.ph/wp-content/uploads/2022/05/kabayan.pdf",
+    "languages": [
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "51.68"
+      },
+      {
+        "language_name": "Kalanguya",
+        "percent": "41.72"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "4.47"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "1.91"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.22"
+      }
+    ],
+    "other_langauges": [
+      "Ifugao",
+      "Kalinga",
+      "Ayangan",
+      "Irungdungan",
+      "Kamayo",
+      "Tuwali",
+      "Kalagan",
+      "Mangyan-Buhid/Bangon",
+      "Bontok-Majukayong",
+      "Illaud",
+      "Isneg/Isnag",
+      "Itneg",
+      "Ivatan",
+      "Kalanguya-Ikalahan",
+      "Maguindanao",
+      "Masadiit",
+      "American/English"
+    ]
+  },
+  {
+    "place_id": 42,
+    "place_name": "Kapangan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Kapangan, formerly known as Takdang or Tacdang, meaning \"people from the east,\" is a municipality in the province of Benguet, Philippines, with a history rooted in pre-colonial settlements along the Amburayan River and trade with the Ilocano people. ",
+    "information_source": "https://www.igorotage.com/blog/p/B91A9/kapangan-benguet",
+    "languages": [
+      {
+        "language_name": "Kankanaey",
+        "percent": "65.78"
+      },
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "28.65"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "4.81"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.65"
+      },
+      {
+        "language_name": "Masadiit",
+        "percent": "0.11"
+      }
+    ],
+    "other_langauges": [
+      "Bisaya/Binisaya",
+      "Irungdungan",
+      "American/English",
+      "Agta-Isarog/Inagta-Isarog",
+      "Ayangan",
+      "Eskaya",
+      "Hamtikanon",
+      "Illaud",
+      "Itawis",
+      "Kalanguya",
+      "Karao",
+      "Porohanon"
+    ]
+  },
+  {
+    "place_id": 43,
+    "place_name": "Kibungan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Kibungan, a municipality in the province of Benguet, is known as the \"Switzerland of Benguet\" due to its mountainous terrain and unique landscape, often mistaken to resemble the Swiss Alps. ",
+    "information_source": "https://wagnersite.weebly.com/",
+    "languages": [
+      {
+        "language_name": "Kankanaey",
+        "percent": "94.38"
+      },
+      {
+        "language_name": "Bisaya/Binisaya",
+        "percent": "2.39"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "2.20"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.81"
+      },
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "0.22"
+      }
+    ],
+    "other_langauges": [
+      "Cebuano",
+      "Balangao",
+      "Kalanguya",
+      "Masadiit",
+      "Bikol/Bicol",
+      "Hiligaynon/Ilonggo",
+      "Other Local Dialects",
+      "Ayangan",
+      "Cuyonon/Cuyonen",
+      "Ifugao",
+      "Illaud",
+      "Irungdungan",
+      "Kamayo",
+      "Karao",
+      "Lambangian"
+    ]
+  },
+  {
+    "place_id": 44,
+    "place_name": "La Trinidad (Capital)",
+    "place_image": "placeholder.jpg",
+    "place_description": "La Trinidad, the capital of Benguet province, is known as the \"Strawberry Fields of the Philippines\" and \"Rose Capital of the Philippines\". It's a municipality and a gateway to the Cordillera region, with a population of 137,404 as of the 2020 census. ",
+    "information_source": "https://latrinidad.gov.ph/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "55.18"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "21.42"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "13.83"
+      },
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "8.40"
+      },
+      {
+        "language_name": "American/English",
+        "percent": "1.18"
+      }
+    ],
+    "other_langauges": [
+      "Kalanguya",
+      "Pangasinan/Panggalato",
+      "Bontok",
+      "Bisaya/Binisaya",
+      "Ifugao",
+      "Tuwali",
+      "Kalinga",
+      "Kapampangan",
+      "Kankanaey-Hak’Ki",
+      "Maranao",
+      "Itneg",
+      "Irungdungan",
+      "Bikol/Bicol",
+      "Masadiit",
+      "Applai",
+      "Waray",
+      "Balangao",
+      "Hiligaynon/Ilonggo",
+      "Ayangan",
+      "Cebuano",
+      "Karao",
+      "Illaud",
+      "Isneg",
+      "Kamayo",
+      "Ibanag",
+      "Inabaknon",
+      "Imalawa",
+      "Applai-Kachakran/Kadaclan",
+      "Hamtikanon",
+      "Balangao-Lias",
+      "Other Local Dialects",
+      "Korean",
+      "Palawan-O-Tao’T-Bato",
+      "Bago",
+      "Ayta Kadi",
+      "Batangan",
+      "Gaddang",
+      "Other Foreign Languages",
+      "Kalanguya-Ikalahan",
+      "Cuyonon/Cuyonen",
+      "Karay-A/Kinaray-A",
+      "Mangyan",
+      "Mangyan-Buhid",
+      "Manobo",
+      "Arta",
+      "Aeta/Ayta-Abelling/Abellen",
+      "Muyadan",
+      "Kalanguya-Yattuka",
+      "Aeta",
+      "Kabihug-Manide",
+      "Surigaonon",
+      "T’Duray/Teduray",
+      "Tagabawa",
+      "Tagakaulo",
+      "Kaluyanen",
+      "Tingguian",
+      "Itawis",
+      "Abelling/Aberling",
+      "Zamboagueño-Chavacano",
+      "Ibatan",
+      "Higaonon/Higa-Onon",
+      "Chinese",
+      "Italian",
+      "Japanese",
+      "Guiangan",
+      "Sinadanga"
+    ]
+  },
+  {
+    "place_id": 45,
+    "place_name": "Mankayan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Mankayan, a 1st-class municipality in Benguet, Philippines, is known as a mining town, particularly for copper, and is home to the Lepanto Consolidated Mining Company. It is also notable that Mankayan is a trade route connecting the lowlands to other parts of the present Benguet and Mountain Province",
+    "information_source": "https://benguet.gov.ph/wp-content/uploads/2022/05/mankayan.pdf",
+    "languages": [
+      {
+        "language_name": "Kankanaey",
+        "percent": "79.68"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "16.57"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "2.12"
+      },
+      {
+        "language_name": "Kalinga",
+        "percent": "1.28"
+      },
+      {
+        "language_name": "Bontok",
+        "percent": "0.35"
+      }
+    ],
+    "other_langauges": [
+      "Kalanguya",
+      "Tuwali",
+      "Bisaya/Binisaya",
+      "Ibaloi/Ibaloy",
+      "Pangasinan/Panggalato",
+      "Ayangan",
+      "Masadiit",
+      "Balangao",
+      "Bikol/Bicol",
+      "Irungdungan",
+      "Ifugao",
+      "Itneg",
+      "Waray",
+      "Kankanaey-Hak’Ki",
+      "Imalawa",
+      "American/English",
+      "Isneg",
+      "Kaluyanen",
+      "Kamayo",
+      "Kapampangan",
+      "Karay-A/Kinaray-A",
+      "Magahats",
+      "Boholano",
+      "Cebuano",
+      "Sama Bangingi",
+      "T’Duray/Teduray",
+      "Cotabateño",
+      "Ibanag",
+      "Itneg/Tinguian-Binongan",
+      "Aromanen-Manobo/Eromanen-Manobo Lahitanen",
+      "British",
+      "Other Foreign Languages"
+    ]
+  },
+  {
+    "place_id": 46,
+    "place_name": "Sablan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Sablan is at the mid-western tip of Benguet. It is bounded by Kapangan on the north, Tublay on the northeast, La Trinidad on the east, Baguio City on the southeast, Tuba on the south, Aringay on the southwest, and Burgos to the west. The term “Sablan” was derived from the local word “Sabdang,” a local tree that thrived in the area. ",
+    "information_source": "https://pogimarsan.wordpress.com/about-us/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "61.95"
+      },
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "27.80"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "7.06"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "2.36"
+      },
+      {
+        "language_name": "Ifugao",
+        "percent": "0.82"
+      }
+    ],
+    "other_langauges": [
+      "American/English",
+      "Kalinga",
+      "Bisaya/Binisaya",
+      "Kapampangan",
+      "Muyadan",
+      "Agta",
+      "Applai",
+      "Bugkalot/Ilongot",
+      "Illaud",
+      "Hiligaynon/Ilonggo",
+      "Imalawa",
+      "Irungdungan",
+      "Kalanguya",
+      "Kankanaey-Hak’Ki",
+      "Maranao",
+      "Other Local Dialects",
+      "Korean",
+      "Other Foreign Languages"
+    ]
+  },
+  {
+    "place_id": 47,
+    "place_name": "Tuba",
+    "place_image": "placeholder.jpg",
+    "place_description": "Tuba, a municipality in Benguet province, Philippines, was originally a barrio of Baguio, separated upon its conversion to a city in 1909, and later became a township in 1911, evolving into a regular municipality in 1963.",
+    "information_source": "https://www.tuba.gov.ph/our-municipality/history-2/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "59.42"
+      },
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "17.41"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "13.65"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "8.13"
+      },
+      {
+        "language_name": "Kalanguya",
+        "percent": "1.39"
+      }
+    ],
+    "other_langauges": [
+      "Ifugao",
+      "American/English",
+      "Tuwali",
+      "Pangasinan/Panggalato",
+      "Kalinga",
+      "Illaud",
+      "Bisaya/Binisaya",
+      "Irungdungan",
+      "Bontok",
+      "Masadiit",
+      "Itneg",
+      "Other Foreign Languages",
+      "German",
+      "Ibanag",
+      "Ibukid",
+      "Ayta Kadi",
+      "Bago",
+      "Balangao",
+      "Hiligaynon/Ilonggo",
+      "Waray",
+      "Kamayo",
+      "Kapampangan",
+      "Karao",
+      "Ibatan",
+      "Bikol/Bicol",
+      "Porohanon",
+      "T’Duray/Teduray",
+      "Davaweño",
+      "Boholano",
+      "Batangan",
+      "Other Local Dialects",
+      "Agta-Isarog/Inagta-Isarog",
+      "British",
+      "Chinese",
+      "Imalawa",
+      "Korean",
+      "Tagakaulo"
+    ]
+  },
+  {
+    "place_id": 48,
+    "place_name": "Tublay",
+    "place_image": "placeholder.jpg",
+    "place_description": "Tublay is a picturesque municipality located in the province of Benguet, Philippines. Known for its cool climate, lush greenery, and stunning mountain landscapes, Tublay is a popular destination for nature lovers and outdoor enthusiasts. Visitors to Tublay can expect to see cascading waterfalls, serene rivers, and sprawling rice terraces that are a testament to the region's rich agricultural heritage.",
+    "information_source": "https://www.citities.com/City/PH/Tublay",
+    "languages": [
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "50.49"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "24.26"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "21.29"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "2.96"
+      },
+      {
+        "language_name": "Kalanguya",
+        "percent": "0.99"
+      }
+    ],
+    "other_langauges": [
+      "American/English",
+      "Illaud",
+      "Ifugao",
+      "Ibukid",
+      "Irungdungan",
+      "Applai-Kachakran/Kadaclan",
+      "B’Laan/Blaan",
+      "Bisaya/Binisaya",
+      "Kamayo",
+      "Masadiit",
+      "Muyadan",
+      "T’Duray/Teduray",
+      "Tagabawa",
+      "Tuwali",
+      "Other Local Dialects"
+    ]
+  },
+  {
+    "place_id": 49,
+    "place_name": "Banaue",
+    "place_image": "placeholder.jpg",
+    "place_description": "Banaue, a municipality in Ifugao province, Philippines, is renowned for its iconic Banaue Rice Terraces, a UNESCO World Heritage Site and a testament to the engineering skills of the Ifugao people, often called the \"Eighth Wonder of the World\". ",
+    "information_source": "https://www.britannica.com/topic/Ifugao-people",
+    "languages": [
+      {
+        "language_name": "Tuwali",
+        "percent": "81.53"
+      },
+      {
+        "language_name": "Ayangan",
+        "percent": "17.35"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.75"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.30"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "0.07"
+      }
+    ],
+    "other_langauges": [
+      "Bisaya/Binisaya",
+      "Irungdungan",
+      "Tagabawa",
+      "Cebuano",
+      "Kalanguya",
+      "Malaueg",
+      "Ubo Monuvu/Manobo-Ubo/Ubo Manobo/Ubo Manuvu/Ubo Menuvu",
+      "American/English",
+      "British",
+      "Not Reported"
+    ]
+  },
+  {
+    "place_id": 50,
+    "place_name": "Hungduan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Hungduan is a municipality in Ifugao province, known for being home to Mount Napulawan, the second highest peak in Ifugao, and for its rich indigenous culture and history, including tales of General Yamashita and his treasures. ",
+    "information_source": "https://hungduan.gov.ph/history/",
+    "languages": [
+      {
+        "language_name": "Tuwali",
+        "percent": "99.34"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.20"
+      },
+      {
+        "language_name": "Kalanguya",
+        "percent": "0.20"
+      },
+      {
+        "language_name": "Ayangan",
+        "percent": "0.15"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.10"
+      }
+    ],
+    "other_langauges": [
+      "Irungdungan",
+      "Kamayo",
+      "Kankanaey",
+      "Tuwali-Kele-I"
+    ]
+  },
+  {
+    "place_id": 51,
+    "place_name": "Kiangan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Kiangan, a municipality in Ifugao province, Philippines, is known as the \"Heritage town of Ifugao\" and is an ecotourism destination, boasting natural and cultural areas, including the Nagacadan Rice Terraces, part of the Rice Terraces of the Philippine Cordilleras World Heritage Site. ",
+    "information_source": "https://www.cseashawaii.org/projects/tagalog-animations/resources/teachers-archaeology-manual/early-ifugao-history-the-people-and-old-kiyyangan-village/",
+    "languages": [
+      {
+        "language_name": "Tuwali",
+        "percent": "80.05"
+      },
+      {
+        "language_name": "Ayangan",
+        "percent": "16.49"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.62"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "1.32"
+      },
+      {
+        "language_name": "Kalanguya",
+        "percent": "0.53"
+      }
+    ],
+    "other_langauges": [
+      "American/English",
+      "Arta",
+      "Kalanguya-Yattuka",
+      "Hiligaynon/Ilonggo",
+      "Kankanaey",
+      "Tagabawa",
+      "Tuwali-Kele-I",
+      "Other Foreign Languages",
+      "Not Reported"
+    ]
+  },
+  {
+    "place_id": 52,
+    "place_name": "Lagawe (Capital)",
+    "place_image": "placeholder.jpg",
+    "place_description": "Lagawe, formerly known as Burnay, is the capital municipality of Ifugao province in the Philippines, known for its cultural heritage and rice terraces, and has 20 barangays. ",
+    "information_source": "https://www.philatlas.com/luzon/car/ifugao/lagawe.html",
+    "languages": [
+      {
+        "language_name": "Tuwali",
+        "percent": "69.23"
+      },
+      {
+        "language_name": "Ayangan",
+        "percent": "26.86"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "1.98"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.75"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "0.18"
+      }
+    ],
+    "other_langauges": [
+      "Arta",
+      "American/English",
+      "Kalanguya",
+      "Cebuano",
+      "Bisaya/Binisaya",
+      "Hiligaynon/Ilonggo",
+      "Irungdungan",
+      "Tagabawa",
+      "Other Foreign Languages"
+    ]
+  },
+  {
+    "place_id": 53,
+    "place_name": "Lamut",
+    "place_image": "placeholder.jpg",
+    "place_description": "Lamut is a municipality in the southeastern part of Ifugao Province, known as the \"Gateway to Ifugao\" and a 4th-class municipality. It is known to be the gateway to the famous Banaue Rice Terraces which is about 53 km drive away and 27 km to Lagawe.",
+    "information_source": "https://lamut.gov.ph/home/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "40.31"
+      },
+      {
+        "language_name": "Ayangan",
+        "percent": "29.78"
+      },
+      {
+        "language_name": "Tuwali",
+        "percent": "25.13"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "3.43"
+      },
+      {
+        "language_name": "Ifugao",
+        "percent": "1.35"
+      }
+    ],
+    "other_langauges": [
+      "Ayangan-Henanga",
+      "American/English",
+      "Arta",
+      "Irungdungan",
+      "Kalanguya",
+      "Bisaya/Binisaya",
+      "Kalanguya-Yattuka",
+      "Balangao",
+      "Kankanaey",
+      "Ata",
+      "Bikol/Bicol",
+      "Cebuano",
+      "Gaddang",
+      "Itneg/Tinguian-Mabaka",
+      "Palawan-O-Tao’T-Bato"
+    ]
+  },
+  {
+    "place_id": 54,
+    "place_name": "Mayoyao",
+    "place_image": "placeholder.jpg",
+    "place_description": "Mayoyao is a municipality in Ifugao province, known for its breathtaking terraced rice fields, part of the UNESCO World Heritage-listed Banaue Rice Terraces, and its rich indigenous culture and history, home to the Ifugao ethnic group. ",
+    "information_source": "https://mayoyao.gov.ph/",
+    "languages": [
+      {
+        "language_name": "Ayangan-Henanga",
+        "percent": "53.39"
+      },
+      {
+        "language_name": "Ayangan",
+        "percent": "45.87"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.46"
+      },
+      {
+        "language_name": "Arta",
+        "percent": "0.20"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.08"
+      }
+    ],
+    "other_langauges": [
+      "Tuwali",
+      "Aeta/Ayta-Magbukun/Magbekin/Magbukon",
+      "Ata",
+      "Ayta",
+      "Palawan-O-Tao’T-Bato"
+    ]
+  },
+  {
+    "place_id": 55,
+    "place_name": "Alfonso Lista (Potia)",
+    "place_image": "placeholder.jpg",
+    "place_description": "Alfonso Lista is a municipality in Ifugao province, Philippines, known as the \"Corn Granary of Ifugao\" due to its significant agricultural production. Originally named Potia and later Lista, it was officially renamed Alfonso Lista in 2022 to resolve historical naming inconsistencies. The municipality boasts attractions like the Magat Dam and the \"1,000 Steps,\" reflecting its blend of agricultural importance and natural features.",
+    "information_source": "https://alfonsolista.gov.ph/brief-history/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "79.88"
+      },
+      {
+        "language_name": "Ayangan",
+        "percent": "15.06"
+      },
+      {
+        "language_name": "Gaddang",
+        "percent": "2.52"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.69"
+      },
+      {
+        "language_name": "Tuwali",
+        "percent": "0.84"
+      }
+    ],
+    "other_langauges": [
+      "Kankanaey",
+      "Balangao",
+      "Ifugao",
+      "Ibanag",
+      "Irungdungan",
+      "American/English",
+      "Ibaloi/Ibaloy",
+      "Kalinga",
+      "Arta",
+      "Ayangan-Henanga",
+      "Imalawa",
+      "Alta-Kabulowan",
+      "Ata/Inata/Negrito",
+      "Bisaya/Binisaya",
+      "Yogad"
+    ]
+  },
+  {
+    "place_id": 56,
+    "place_name": "Aguinaldo",
+    "place_image": "placeholder.jpg",
+    "place_description": "Aguinaldo is a municipality in the province of Ifugao, Philippines, established on September 20, 1980, and named after Emilio Aguinaldo, the Philippines' first president, who reportedly passed through the area. Primarily an agricultural municipality with palay (rice) as its main crop, Aguinaldo is classified as a 2nd municipal income class.",
+    "information_source": "https://peoplaid.com/2020/05/22/aguinaldo-ifugao/",
+    "languages": [
+      {
+        "language_name": "Ayangan",
+        "percent": "91.61"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "6.24"
+      },
+      {
+        "language_name": "Balangao",
+        "percent": "1.68"
+      },
+      {
+        "language_name": "Arta",
+        "percent": "0.27"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.20"
+      }
+    ],
+    "other_langauges": [
+      "Tuwali",
+      "Irungdungan",
+      "Ayangan-Henanga",
+      "American/English",
+      "Ati/Inete/Inati (Negros)",
+      "Gaddang",
+      "Hiligaynon/Ilonggo",
+      "Kalanguya",
+      "Palawan-O-Tao’T-Bato"
+    ]
+  },
+  {
+    "place_id": 57,
+    "place_name": "Hingyon",
+    "place_image": "placeholder.jpg",
+    "place_description": "Hingyon is a municipality in Ifugao province, Philippines, notable for being part of the area encompassing the UNESCO World Heritage-listed Rice Terraces of the Philippine Cordilleras. Hingyon is home to the Hingyon Rice Terraces Cluster, which plays a vital role in preserving heirloom rice varieties and the Ifugao intangible cultural heritage, including the Hudhud chants.",
+    "information_source": "https://hingyon.gov.ph/history/",
+    "languages": [
+      {
+        "language_name": "Tuwali",
+        "percent": "96.84"
+      },
+      {
+        "language_name": "Ayangan",
+        "percent": "2.43"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.34"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.30"
+      },
+      {
+        "language_name": "Tuwali-Kele-I",
+        "percent": "0.09"
+      }
+    ],
+    "other_langauges": [
+      "Ibaloi/Ibaloy",
+      "Irungdungan",
+      "Kalanguya",
+      "Tagbanua",
+      "Tingguian"
+    ]
+  },
+  {
+    "place_id": 58,
+    "place_name": "Tinoc",
+    "place_image": "placeholder.jpg",
+    "place_description": "Tinoc is a landlocked municipality in the western part of Ifugao province, Philippines, known for its high-altitude location and cool climate, which makes it suitable for growing temperate vegetables. Home to various Ifugao sub-tribes, Tinoc is characterized by its mountainous terrain, traditional agricultural practices including rice terraces and vegetable farms.",
+    "information_source": "https://icca.ph/view-icca-site/?id=7",
+    "languages": [
+      {
+        "language_name": "Kalanguya",
+        "percent": "90.97"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "7.02"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "1.25"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.40"
+      },
+      {
+        "language_name": "Tuwali",
+        "percent": "0.36"
+      }
+    ],
+    "other_langauges": [
+      "Kamayo",
+      "Ayangan",
+      "Ibaloi/Ibaloy",
+      "Itneg/Tinguian-Inlaud",
+      "Waray",
+      "Jama Mapun",
+      "Kalamyanen",
+      "Kalanguya-Ikalahan",
+      "Kalanguya-Yattuka",
+      "Manobo-Agusan",
+      "Tuwali-Kele-I"
+    ]
+  },
+  {
+    "place_id": 59,
+    "place_name": "Asipulo",
+    "place_image": "placeholder.jpg",
+    "place_description": "The municipality of Asipulo was formerly part of the Municipality of Kiangan, Ifugao Province, prior to 1992. The people called their places “Ba-hiltu'h” and the villagers as “Iba-hiltu'h” which means on the other side.",
+    "information_source": "https://asipuloifugao.gov.ph/creation-of-the-municipality/",
+    "languages": [
+      {
+        "language_name": "Kalanguya",
+        "percent": "41.92"
+      },
+      {
+        "language_name": "Ayangan",
+        "percent": "31.33"
+      },
+      {
+        "language_name": "Tuwali-Kele-I",
+        "percent": "12.10"
+      },
+      {
+        "language_name": "Kalanguya-Yattuka",
+        "percent": "9.86"
+      },
+      {
+        "language_name": "Tuwali",
+        "percent": "4.79"
+      }
+    ],
+    "other_langauges": [
+      "Ilocano",
+      "Tagalog",
+      "Arta",
+      "Kankanaey",
+      "Aromanen-Manobo/Eromanen-Manobo Mulitaan",
+      "Ati/Inete/Inati (Negros)",
+      "American/English",
+      "Agta-Iriga/Inagta-Iriga",
+      "Irungdungan",
+      "Kalamyanen",
+      "Pangasinan/Panggalato",
+      "Tagabawa"
+    ]
+  },
+  {
+    "place_id": 60,
+    "place_name": "Balbalan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Balbalan, a municipality in Kalinga province, Philippines, derives its name from an ancient practice where war parties would wash their blood-stained bodies and weapons in a creek after attacks, hence the name \"Balbalan\" meaning \"to wash\" in the local dialect. ",
+    "information_source": "https://ncca.gov.ph/about-ncca-3/subcommissions/subcommission-on-cultural-communities-and-traditional-arts-sccta/northern-cultural-communities/the-kalinga/",
+    "languages": [
+      {
+        "language_name": "Kalinga",
+        "percent": "98.89"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.95"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.12"
+      },
+      {
+        "language_name": "Kalanguya-Yattuka",
+        "percent": "0.04"
+      }
+    ],
+    "other_langauges": []
+  },
+  {
+    "place_id": 61,
+    "place_name": "Lubuagan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Lubuagan, a municipality in Kalinga province, Philippines, has a rich history, including being the sub-provincial capital of Kalinga and a center of culture, commerce, trade, and education, with a notable resistance to foreign occupation. ",
+    "information_source": "https://boyplakwatsa.wordpress.com/2017/11/14/lubuagan-kalinga/",
+    "languages": [
+      {
+        "language_name": "Kalinga",
+        "percent": "99.60"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.20"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.10"
+      },
+      {
+        "language_name": "Agta-Isarog/Inagta-Isarog",
+        "percent": "0.05"
+      },
+      {
+        "language_name": "Ata",
+        "percent": "0.05"
+      }
+    ],
+    "other_langauges": [
+      "Irungdungan",
+      "Manobo",
+      "American/English"
+    ]
+  },
+  {
+    "place_id": 62,
+    "place_name": "Pasil",
+    "place_image": "placeholder.jpg",
+    "place_description": "Pasil, a municipality in southwestern Kalinga province, is known for its indigenous Kalinga people, pottery traditions, and its role as the first indigenous Slow Food community in the Philippines. ",
+    "information_source": "https://pasil.gov.ph/",
+    "languages": [
+      {
+        "language_name": "Kalinga",
+        "percent": "99.90"
+      },
+      {
+        "language_name": "Itneg/Tinguian-Balatok",
+        "percent": "0.05"
+      },
+      {
+        "language_name": "Kasiguranin",
+        "percent": "0.05"
+      }
+    ],
+    "other_langauges": []
+  },
+  {
+    "place_id": 63,
+    "place_name": "Pinukpuk",
+    "place_image": "placeholder.jpg",
+    "place_description": "Pinukpuk boasts breathtaking mountain views and a rich display of indigenous traditions that define Kalinga. The municipality’s vibrant agricultural landscapes and local festivals celebrate its cultural identity. Its authentic rural charm and scenic beauty captivate visitors seeking a genuine cultural journey.",
+    "information_source": "https://www.worldbank.org/en/news/feature/2017/07/10/it-takes-a-village-thriving-together-in-tabuk-philippines",
+    "languages": [
+      {
+        "language_name": "Kalinga",
+        "percent": "64.80"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "33.99"
+      },
+      {
+        "language_name": "Itawis",
+        "percent": "0.62"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.36"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.23"
+      }
+    ],
+    "other_langauges": [
+      "Kankanaey",
+      "Ibukid",
+      "Itneg/Tinguian-Banao",
+      "Kankanaey-Hak’Ki",
+      "Kapampangan",
+      "Applai",
+      "Bontok",
+      "Ibatan",
+      "Ifugao",
+      "Kamayo",
+      "Mamanwa"
+    ]
+  },
+  {
+    "place_id": 64,
+    "place_name": "Rizal (Liwan)",
+    "place_image": "placeholder.jpg",
+    "place_description": "Rizal, a municipality in Kalinga, Philippines, is known for its Pleistocene archaeological site with rhino bones, tools, and other remains, and is also home to the Johnny-Lina Carillo Green Valley Farm, a pilot GAP farm. ",
+    "information_source": "https://ati2.da.gov.ph/ati-car/content/features/keeping-mango-flowers-blooming-johnny-lina-carillo-green-valley-farm-rizal-kalinga",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "75.46"
+      },
+      {
+        "language_name": "Kalinga",
+        "percent": "12.69"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "7.52"
+      },
+      {
+        "language_name": "Ibanag",
+        "percent": "2.71"
+      },
+      {
+        "language_name": "Itawis",
+        "percent": "1.63"
+      }
+    ],
+    "other_langauges": [
+      "Irungdungan",
+      "Kankanaey",
+      "Applai",
+      "Applai-Kachakran/Kadaclan",
+      "Bontok",
+      "Cebuano",
+      "Imalawa",
+      "Kalanguya-Yattuka",
+      "Kasiguranin",
+      "Pangasinan/Panggalato"
+    ]
+  },
+  {
+    "place_id": 65,
+    "place_name": "City of Tabuk (Capital)",
+    "place_image": "placeholder.jpg",
+    "place_description": "Tabuk City, the capital of Kalinga province, is a component city and the most populous in the province, with a population of 121,033 as of the 2020 census. It's also considered the Cordillera's rice granary, known for its extensive agricultural area.",
+    "information_source": "https://tabukcity.gov.ph/about-tabuk-city/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "60.27"
+      },
+      {
+        "language_name": "Kalinga",
+        "percent": "36.93"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.62"
+      },
+      {
+        "language_name": "Baliwon",
+        "percent": "0.60"
+      },
+      {
+        "language_name": "Sinadanga",
+        "percent": "0.58"
+      }
+    ],
+    "other_langauges": [
+      "Maranao",
+      "Irungdungan",
+      "Kankanaey",
+      "American/English",
+      "Bontok",
+      "Gaddang",
+      "Ibukid",
+      "Ifugao",
+      "Other Foreign Languages",
+      "Bontok-Majukayong",
+      "Itawis",
+      "Applai",
+      "Imalawa",
+      "Kalanguya-Yattuka",
+      "Kamiguin",
+      "Ibanag",
+      "Aromanen-Manobo/Eromanen-Manobo Ilianen",
+      "Bisaya/Binisaya",
+      "Kankanaey-Hak’Ki",
+      "Kapampangan",
+      "Itneg",
+      "Isneg",
+      "Palawani",
+      "Hiligaynon/Ilonggo",
+      "Tingguian",
+      "Ibatan",
+      "Manobo-Dibabawon",
+      "Agta",
+      "Ayangan",
+      "Bago",
+      "Cebuano",
+      "Bagobo-Tagabawa",
+      "Karao",
+      "Lambangian",
+      "Malaueg",
+      "Mamanwa",
+      "Mangguangan",
+      "Mangyan",
+      "Manobo",
+      "Iranon/Iranun/Iraynon",
+      "Manobo-Matigsalug",
+      "Manobo-Pulanguinon",
+      "Inabaknon",
+      "Molbog",
+      "Aeta/Ayta-Abelling/Abellen",
+      "Tuwali",
+      "Waray"
+    ]
+  },
+  {
+    "place_id": 66,
+    "place_name": "Tanudan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Tanudan comes from the word, \"TANUD\" which means needle. The inhabitants of this area raised cotton and twined thread for blankets. G-strings and other garments. They made fine needle from the bones of the bats and feathers of birds. People from the surrounding localities went to Tanudan to barter their wares to cotton apparels and brought old garments to be darned for further use.",
+    "information_source": "https://www.studocu.com/ph/document/kalinga-state-university/bachelor-of-scienci-in-office-administra/history-of-tanudan-tribe/67609879",
+    "languages": [
+      {
+        "language_name": "Kalinga",
+        "percent": "99.43"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.38"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.13"
+      },
+      {
+        "language_name": "American/English",
+        "percent": "0.06"
+      }
+    ],
+    "other_langauges": []
+  },
+  {
+    "place_id": 67,
+    "place_name": "Tinglayan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Tinglayan is a municipality in the western part of Kalinga province, Philippines, renowned for being the location of the iconic Buscalan village, home to the late Apo Whang-od, the internationally recognized traditional Kalinga tattoo artist. Tinglayan is primarily inhabited by various sub-tribes of the Kalinga people who maintain their unique traditions and practices.",
+    "information_source": "https://tinglayan.gov.ph/",
+    "languages": [
+      {
+        "language_name": "Kalinga",
+        "percent": "99.51"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.37"
+      },
+      {
+        "language_name": "Kalanguya-Yattuka",
+        "percent": "0.04"
+      },
+      {
+        "language_name": "Manobo-Pulanguinon",
+        "percent": "0.04"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.04"
+      }
+    ],
+    "other_langauges": []
+  },
+  {
+    "place_id": 68,
+    "place_name": "Barlig",
+    "place_image": "placeholder.jpg",
+    "place_description": "Barlig is a landlocked municipality in the southeastern part of Mountain Province, Philippines, known for its rugged terrain and the presence of the indigenous Kalinga people, specifically the Barlig sub-tribe. Characterized by its traditional villages and agricultural practices, including rice terraces, Barlig relies mainly on farming as its primary source of livelihood.",
+    "information_source": "https://barlig.wordpress.com/articles/profile-history/",
+    "languages": [
+      {
+        "language_name": "Balangao",
+        "percent": "42.68"
+      },
+      {
+        "language_name": "Applai-Kachakran/Kadaclan",
+        "percent": "42.36"
+      },
+      {
+        "language_name": "Balangao-Lias",
+        "percent": "13.14"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "1.03"
+      },
+      {
+        "language_name": "Ayangan",
+        "percent": "0.79"
+      }
+    ],
+    "other_langauges": [
+      "Kankanaey",
+      "Baliwon",
+      "Tagalog",
+      "Aromanen-Manobo/Eromanen-Manobo Lahitanen"
+    ]
+  },
+  {
+    "place_id": 69,
+    "place_name": "Bauko",
+    "place_image": "placeholder.jpg",
+    "place_description": "Bauko, officially the Municipality of Bauko, is the largest municipality in Mountain Province, Philippines. The people of Bauko that belong to a group of mountain peoples known as \"Igorot\", of which they specifically belong to the subgroup of \"Kankanay or Lepanto-Igorot.\"",
+    "information_source": "https://www.geocities.ws/ibila65297/bauko.html",
+    "languages": [
+      {
+        "language_name": "Kankanaey",
+        "percent": "90.78"
+      },
+      {
+        "language_name": "Applai",
+        "percent": "5.78"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "2.63"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.64"
+      },
+      {
+        "language_name": "Ibaloi/Ibaloy",
+        "percent": "0.16"
+      }
+    ],
+    "other_langauges": [
+      "Balangao",
+      "Kalanguya",
+      "Masadiit",
+      "Bisaya/Binisaya",
+      "Kalinga",
+      "Bikol/Bicol",
+      "Bontok",
+      "Ifugao",
+      "Agta-Isarog/Inagta-Isarog",
+      "Irungdungan",
+      "Agta-Taboy",
+      "Alta-Kabulowan",
+      "Applai-Kachakran/Kadaclan",
+      "Ayangan",
+      "Bago",
+      "Bolinaw",
+      "Gaddang",
+      "Itawis",
+      "Kamiguin",
+      "Kapampangan",
+      "Karay-A/Kinaray-A",
+      "Karulano",
+      "Tuwali"
+    ]
+  },
+  {
+    "place_id": 70,
+    "place_name": "Besao",
+    "place_image": "placeholder.jpg",
+    "place_description": "Besao is a municipality in Mountain Province, Philippines, known for its Kankanaey people, abundant water supply, and the Agawa people's Agricultural Stone Calendar of Gueday, a unique artifact. \r\n",
+    "information_source": "https://macrocosm-magbook.blogspot.com/2009/06/secrets-of-calendar-stone-of-besao.html",
+    "languages": [
+      {
+        "language_name": "Applai",
+        "percent": "98.56"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.63"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.58"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "0.17"
+      },
+      {
+        "language_name": "Alta-Kabulowan",
+        "percent": "0.06"
+      }
+    ],
+    "other_langauges": [
+      "Balangao",
+      "Bisaya/Binisaya",
+      "Bontok",
+      "American/English"
+    ]
+  },
+  {
+    "place_id": 71,
+    "place_name": "Bontoc (Capital)",
+    "place_image": "placeholder.jpg",
+    "place_description": "Bontoc, the capital of Mountain Province, is home to the culturally rich Bontoc people and is known for its mountainous terrain, rice terraces, and the annual Lang-ay Festival. It is derived from the two morphemes “bun” (heap) and “tuk” (top), which, taken together, means “mountains.”",
+    "information_source": "https://lgubontoc.gov.ph/about-us/municipal-profile/municipal-profile/",
+    "languages": [
+      {
+        "language_name": "Bontok",
+        "percent": "87.69"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "5.86"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "2.96"
+      },
+      {
+        "language_name": "Applai",
+        "percent": "2.14"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "1.35"
+      }
+    ],
+    "other_langauges": [
+      "Balangao",
+      "Sinadanga",
+      "Bisaya/Binisaya",
+      "Kalinga",
+      "Balangao-Lias",
+      "Ifugao",
+      "Applai-Kachakran/Kadaclan",
+      "Masadiit",
+      "Maranao",
+      "Bontok-Majukayong",
+      "Irungdungan",
+      "American/English",
+      "Badjao",
+      "Bago",
+      "Aeta/Ayta-Magbukun/Magbekin/Magbukon",
+      "Ayta",
+      "Baliwon",
+      "Ibaloi/Ibaloy",
+      "Illaud",
+      "Maguindanao",
+      "Manobo",
+      "Pangasinan/Panggalato",
+      "Tuwali",
+      "German",
+      "Not Reported"
+    ]
+  },
+  {
+    "place_id": 72,
+    "place_name": "Natonin",
+    "place_image": "placeholder.jpg",
+    "place_description": "Natonin, a 3rd-class municipality in Mountain Province, Philippines, is known for its mountainous terrain, rich in rice terraces, and is home to indigenous tribes like the i-Ferangaos, i-Ha'ki, i-Majukayongs, and i-Kachacrans. ",
+    "information_source": "https://natoninomenlahe.gov.ph/history/",
+    "languages": [
+      {
+        "language_name": "Balangao",
+        "percent": "62.59"
+      },
+      {
+        "language_name": "Kankanaey-Hak’Ki",
+        "percent": "24.48"
+      },
+      {
+        "language_name": "Bontok-Majukayong",
+        "percent": "10.18"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "2.52"
+      },
+      {
+        "language_name": "Applai-Kachakran/Kadaclan",
+        "percent": "0.22"
+      }
+    ],
+    "other_langauges": [
+      "Tagalog",
+      "Badjao",
+      "Ayangan",
+      "Ayangan-Henanga",
+      "Tuwali",
+      "Applai",
+      "Bagobo-Clata/Klata",
+      "Balangao-Lias",
+      "Kalinga",
+      "Masadiit",
+      "Pangasinan/Panggalato"
+    ]
+  },
+  {
+    "place_id": 73,
+    "place_name": "Paracelis",
+    "place_image": "placeholder.jpg",
+    "place_description": "Paracelis is a 3rd-class municipality in Mountain Province, where it shares borders with Kalinga, Isabela and Ifugao provinces. Paracelis holds its annual municipal fiesta 21-25 of April every year which serves as a potential tourist attraction featuring dances and other cultural activities and participated by barangay representatives.",
+    "information_source": "http://mountainprovince.gov.ph/the-province/municipalities/",
+    "languages": [
+      {
+        "language_name": "Ilocano",
+        "percent": "62.73"
+      },
+      {
+        "language_name": "Gaddang",
+        "percent": "21.94"
+      },
+      {
+        "language_name": "Balangao",
+        "percent": "7.33"
+      },
+      {
+        "language_name": "Kalinga",
+        "percent": "6.09"
+      },
+      {
+        "language_name": "Bontok-Majukayong",
+        "percent": "1.90"
+      }
+    ],
+    "other_langauges": [
+      "Baliwon",
+      "Applai-Kachakran/Kadaclan",
+      "Tagalog",
+      "Ifugao",
+      "Ayangan",
+      "Irungdungan",
+      "Bontok",
+      "Kankanaey-Hak’Ki",
+      "Kankanaey",
+      "Balangao-Lias",
+      "Bagobo-Tagabawa",
+      "Badjao",
+      "Hamtikanon",
+      "Imalawa",
+      "Applai",
+      "Bisaya/Binisaya",
+      "Ibaloi/Ibaloy",
+      "Masadiit",
+      "American/English"
+    ]
+  },
+  {
+    "place_id": 74,
+    "place_name": "Sabangan",
+    "place_image": "placeholder.jpg",
+    "place_description": "Sabangan, a municipality in the southeastern part of Mountain Province, is known for its panoramic views, hidden wonders, and opportunities for hiking, swimming, and relaxation. It's located 18 km from Bontoc and 129 km from Baguio City, with a high average elevation and hilly, forest-covered slopes. ",
+    "information_source": "https://sabanganmp.gov.ph/",
+    "languages": [
+      {
+        "language_name": "Kankanaey",
+        "percent": "86.28"
+      },
+      {
+        "language_name": "Applai",
+        "percent": "12.06"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "1.09"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.39"
+      },
+      {
+        "language_name": "Masadiit",
+        "percent": "0.17"
+      }
+    ],
+    "other_langauges": [
+      "Bontok",
+      "Agta-Taboy",
+      "Irungdungan",
+      "Applai-Kachakran/Kadaclan",
+      "Ayangan",
+      "Balangao-Lias",
+      "Bisaya/Binisaya",
+      "Ibaloi/Ibaloy",
+      "Sinadanga",
+      "Tausug/Bahasa Sug",
+      "Tuwali"
+    ]
+  },
+  {
+    "place_id": 75,
+    "place_name": "Sadanga",
+    "place_image": "placeholder.jpg",
+    "place_description": "Sadanga is a municipality in Mountain Province, Philippines, known for its rich culture, natural beauty, and unique Sinadanga language. Sadanga is home to the Fowa-As falls, a sacred water source",
+    "information_source": "http://mountainprovince.gov.ph/the-province/municipalities/",
+    "languages": [
+      {
+        "language_name": "Sinadanga",
+        "percent": "99.66"
+      },
+      {
+        "language_name": "Bontok",
+        "percent": "0.11"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.11"
+      },
+      {
+        "language_name": "Applai",
+        "percent": "0.06"
+      },
+      {
+        "language_name": "Kalinga",
+        "percent": "0.06"
+      }
+    ],
+    "other_langauges": [
+      "Kankanaey",
+      "Sibuyan Mangyan-Tagabukid",
+      "Tagalog",
+      "British",
+      "Korean"
+    ]
+  },
+  {
+    "place_id": 76,
+    "place_name": "Sagada",
+    "place_image": "placeholder.jpg",
+    "place_description": "Sagada, a town in the Mountain Province of the Philippines, is famous for its cool climate, unique hanging coffins burial tradition, and stunning natural landscapes, including rice terraces and caves. ",
+    "information_source": "https://tourismo-filipino.com/destinations/sagada/",
+    "languages": [
+      {
+        "language_name": "Applai",
+        "percent": "97.98"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.72"
+      },
+      {
+        "language_name": "Kankanaey",
+        "percent": "0.61"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.40"
+      },
+      {
+        "language_name": "Bontok",
+        "percent": "0.29"
+      }
+    ],
+    "other_langauges": [
+      "Bago",
+      "American/English",
+      "Alta",
+      "Kalinga",
+      "Aeta",
+      "Aromanen-Manobo/Eromanen-Manobo Livunganen",
+      "Ayangan",
+      "Balangao",
+      "Ibaloi/Ibaloy",
+      "Hiligaynon/Ilonggo",
+      "Irungdungan",
+      "Itneg",
+      "Itneg/Tinguian-Muyadan",
+      "British"
+    ]
+  },
+  {
+    "place_id": 77,
+    "place_name": "Tadian",
+    "place_image": "placeholder.jpg",
+    "place_description": "Tadian is a municipality in the western part of Mountain Province, Philippines, known as \"The Gateway to the West\" and once referred to as Kay-ang.",
+    "information_source": "http://mountainprovince.gov.ph/the-province/municipalities/",
+    "languages": [
+      {
+        "language_name": "Kankanaey",
+        "percent": "66.12"
+      },
+      {
+        "language_name": "Applai",
+        "percent": "33.05"
+      },
+      {
+        "language_name": "Ilocano",
+        "percent": "0.47"
+      },
+      {
+        "language_name": "Tagalog",
+        "percent": "0.29"
+      },
+      {
+        "language_name": "Irungdungan",
+        "percent": "0.07"
+      }
+    ],
+    "other_langauges": [
+      "Balangao",
+      "Masadiit",
+      "American/English",
+      "Ibaloi/Ibaloy",
+      "Sinadanga",
+      "Tagabawa"
+    ]
+  }
+]

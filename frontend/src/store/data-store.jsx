@@ -1,9 +1,7 @@
 import { create } from "zustand";
+import municipality_data from '/public/municipality_data.json';
+import province_data from '/public/province_data.json';
 
-const initialState = {
-  data: null,
-  error: null,
-};
 
 // 0 - municipal level
 // 1 - province level
@@ -14,26 +12,15 @@ export const useDataStore = create((set) => ({
   setSelectedLevel: (level) => set({ selectedLevel: level }),
   error: null,
   fetchPlaceDataById: async (placeId, level) => {
-    try {
-      const response = await fetch("http://localhost:3001/getPlaceData", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          level: level,
-          placeId: placeId,
-        }),
-      });
-
-      const text = await response.text();
-      const data = JSON.parse(text);
-      set({ data: data });
-    } catch (error) {
-      console.error("Error fetching data:", error);
-      set({ error: error });
+    if(level === 0){
+      set({ data: municipality_data[placeId-1] });
+    }else{
+      set({ data: province_data[placeId-1] });
     }
   },
 
-  resetStore: () => set(initialState),
+  resetStore: () => set({
+    data: null,
+    error: null,
+  }),
 }));
